@@ -14,7 +14,7 @@ jobs:
 
       - name: Replace GTM ID
         run: |
-          sed -i "s/__GTM_ID__/${{ secrets.GA_ID }}/g" index.html
+          sed -i "s/__GA_ID__/${{ secrets.GA_ID }}/g" index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
