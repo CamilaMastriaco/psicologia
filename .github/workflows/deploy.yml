@@ -3,23 +3,30 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  
+      - main
+
+permissions:
+  contents: write  
 jobs:
   build-and-deploy:
+    environment: Google-Analytics 
     runs-on: ubuntu-latest
-    permissions:
-      contents: write  
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Replace GA ID
+      - name: Debug GA_ID (solo para verificar)
+        run: echo "GA_ID is set"
+
+      - name: Replace GA ID in index.html
         run: |
           sed -i "s|__GA_ID__|${{ secrets.GA_ID }}|g" index.html
+          echo "Preview of index.html after replacement:"
+          head -n 20 index.html
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
-          destination_branch: gh-pages
+          publish_dir: ./ 
