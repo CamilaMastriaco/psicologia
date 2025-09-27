@@ -1,0 +1,122 @@
+/* --- VARIABLES Y ESTILOS GLOBALES --- */
+:root {
+    --bg-color: #f8f9fa;
+    --text-color: #212529;
+    --primary-color: #6d28d9;
+    --secondary-color: #e9d5ff;
+    --card-bg: #ffffff;
+    /* CAMBIO DE FUENTE */
+    --font-main: 'Montserrat', sans-serif; 
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html { scroll-behavior: smooth; font-size: 16px; }
+
+/* --- APLICACIÓN GLOBAL DE MONTSERRAT --- */
+html, body, button, input, select, textarea {
+    font-family: var(--font-main); /* Aplicamos Montserrat a TODO */
+    color: var(--text-color);
+}
+
+body {
+    background-color: var(--bg-color);
+    line-height: 1.7;
+    font-size: 1.05rem; /* Ajuste para Montserrat, que es un poco más compacta */
+    font-weight: 400; /* Regular por defecto */
+}
+
+h1, h2, h3, h4 {
+    font-family: var(--font-main); /* También aplica aquí para asegurar consistencia */
+    color: #1a1a1a;
+    line-height: 1.3;
+    font-weight: 700; /* Bold para títulos */
+    font-synthesis: none;
+}
+
+strong {
+    font-weight: 600; /* Semi-bold para negritas, se verá genial */
+    font-synthesis: none;
+}
+
+.page-wrapper { position: relative; z-index: 1; }
+.floating-buttons { position: relative; z-index: 1000; }
+.lang-switcher, .whatsapp-flotante { position: fixed; }
+
+/* --- NUEVO INTERRUPTOR DE IDIOMA --- */
+.lang-switcher { top: 20px; right: 20px; z-index: 9999; background-color: var(--card-bg); border-radius: 20px; display: flex; padding: 4px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); border: 1px solid #eee; }
+.lang-option { padding: 6px 12px; cursor: pointer; font-size: 0.9rem; font-weight: 600; color: #888; background-color: transparent; border: none; border-radius: 16px; transition: background-color 0.3s ease, color 0.3s ease; text-transform: uppercase; font-family: var(--font-main); }
+.lang-option.active { background-color: var(--primary-color); color: #fff; }
+
+/* --- WHATSAPP Y OTROS BOTONES --- */
+.whatsapp-flotante { bottom: 25px; right: 25px; background-color: #25D366; color: #FFF; border-radius: 50px; text-align: center; font-size: 14px; display: flex; align-items: center; padding: 12px; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.15); transition: all 0.3s ease; z-index: 9998; }
+.whatsapp-flotante:hover { transform: scale(1.05); }
+.whatsapp-flotante svg { margin-right: 8px; }
+.whatsapp-flotante span { max-width: 0; overflow: hidden; white-space: nowrap; transition: max-width 0.4s ease-in-out; }
+.whatsapp-flotante:hover span { max-width: 150px; margin-right: 8px; }
+
+/* --- ESTILOS GENERALES DEL CONTENIDO --- */
+.container { max-width: 960px; margin: 0 auto; padding: 0 20px; }
+h1 { font-size: 3.2rem; margin-bottom: 1rem; }
+h2 { font-size: 2.5rem; margin-bottom: 2rem; text-align: center; }
+h3 { font-size: 1.8rem; margin-bottom: 1.5rem; text-align: center; }
+h4 { font-size: 1.2rem; margin-bottom: 0.5rem; font-weight: 600; }
+p { margin-bottom: 1rem; max-width: 65ch; }
+section { padding: 80px 0; }
+
+.btn { display: inline-block; background-color: var(--primary-color); color: #fff; padding: 14px 28px; border-radius: 50px; text-decoration: none; font-weight: 600; transition: transform 0.3s ease, background-color 0.3s ease; }
+.btn:hover { transform: translateY(-3px); background-color: #5b21b6; }
+
+#hero { text-align: center; padding: 120px 0; }
+#hero p { font-size: 1.25rem; color: #495057; margin: 0 auto 2rem auto; }
+#hero span { display: block; margin-top: 1rem; color: #6c757d; font-size: 0.9rem; }
+
+.about-container { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; align-items: center; }
+.about-image img { width: 100%; max-width: 250px; border-radius: 50%; aspect-ratio: 1 / 1; object-fit: cover; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+.about-text h2 { text-align: left; }
+
+#para-ti { background-color: var(--secondary-color); }
+#para-ti ul { list-style: none; max-width: 700px; margin: 0 auto; padding-left: 0; }
+#para-ti li { background-color: var(--card-bg); padding: 18px 25px; margin-bottom: 12px; border-radius: 12px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); display: flex; align-items: center; }
+#para-ti li::before { content: '✓'; color: var(--primary-color); font-weight: bold; margin-right: 15px; font-size: 1.2rem; }
+
+/* --- ANIMACIÓN DE LISTA ESCALONADA --- */
+.stagger-item { opacity: 0; transform: translateX(-20px); transition: opacity 0.5s ease-out, transform 0.5s ease-out; }
+.stagger-item.is-visible { opacity: 1; transform: translateX(0); }
+.stagger-item:nth-child(2) { transition-delay: 0.1s; }
+.stagger-item:nth-child(3) { transition-delay: 0.2s; }
+.stagger-item:nth-child(4) { transition-delay: 0.3s; }
+.stagger-item:nth-child(5) { transition-delay: 0.4s; }
+
+.steps-container { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; text-align: center; }
+.step .step-number { font-size: 2.5rem; font-weight: 700; color: var(--primary-color); font-family: var(--font-main); display: block; margin-bottom: 0.5rem; }
+
+#testimonios .swiper { width: 100%; padding-top: 20px; padding-bottom: 50px; }
+#testimonios .swiper-slide { display: flex; justify-content: center; height: auto; }
+#testimonios .testimonial-card { width: 90%; height: 100%; box-sizing: border-box; }
+#testimonios .swiper-button-next, #testimonios .swiper-button-prev { color: var(--primary-color); transition: transform 0.2s ease; }
+#testimonios .swiper-button-next:hover, #testimonios .swiper-button-prev:hover { transform: scale(1.1); }
+#testimonios .swiper-pagination-bullet-active { background-color: var(--primary-color); }
+.testimonial-card { background-color: var(--card-bg); padding: 30px; border-radius: 12px; border: 1px solid #e9ecef; display: flex; flex-direction: column; }
+.testimonial-card blockquote { border: none; padding: 0; margin: 0 0 1rem 0; font-style: italic; font-weight: 500; flex-grow: 1; }
+.testimonial-card cite { font-weight: 600; color: var(--primary-color); align-self: flex-end; }
+
+#cta-final { background-color: var(--text-color); color: var(--bg-color); text-align: center; }
+#cta-final h2, #cta-final p { color: var(--bg-color); }
+#cta-final p { margin: 0 auto 2rem auto; }
+
+/* FOOTER CENTRADO Y PROFESIONAL */
+footer { padding: 50px 20px; text-align: center; background-color: #e9ecef; font-size: 0.95rem; color: #6c757d; }
+footer p { margin: 0 auto 0.5rem auto; max-width: 60ch; }
+footer .copy { margin-top: 1.5rem; font-size: 0.8rem; }
+
+.animate-on-scroll { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+.animate-on-scroll.is-visible { opacity: 1; transform: translateY(0); }
+
+@media (max-width: 768px) {
+    h1 { font-size: 2.5rem; }
+    h2 { font-size: 2rem; }
+    section { padding: 60px 0; }
+    .about-container, .steps-container { grid-template-columns: 1fr; text-align: center; }
+    .about-image { margin: 0 auto 2rem auto; }
+    .about-text h2 { text-align: center; }
+}
