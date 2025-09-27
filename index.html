@@ -170,23 +170,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-          const whatsappButtons = document.querySelectorAll('.whatsapp-trigger');
-          whatsappButtons.forEach(button => {
-            button.addEventListener('click', function() {
-              console.log('WhatsApp clicked'); 
-              if (typeof gtag === 'function') {
-                gtag('event', 'whatsapp_click', {
-                  'event_category': 'contact',
-                  'event_label': 'WhatsApp Button',
-                  'value': 1
-                });
-              }
-            });
-          });
-        });
-    </script>
+
 
 </body>
 </html>
