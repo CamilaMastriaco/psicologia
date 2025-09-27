@@ -4,12 +4,11 @@ on:
   push:
     branches:
       - main  
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    environment: "Google Analytics"
-
+    permissions:
+      contents: write  
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -18,12 +17,9 @@ jobs:
         run: |
           sed -i "s|__GA_ID__|${{ secrets.GA_ID }}|g" index.html
 
-      - name: Preview index.html
-        run: cat index.html
-
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./
-
+          destination_branch: gh-pages
