@@ -170,5 +170,19 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
+    <script>
+      const whatsappBtns = document.querySelectorAll('.btn.whatsapp-trigger');
+    
+      whatsappBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          gtag('event', 'click_whatsapp', {
+            'event_category': 'Contacto',
+            'event_label': 'Botón WhatsApp',
+          });
+        });
+      });
+    </script>
+
+
 </body>
 </html>
