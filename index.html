@@ -171,16 +171,20 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/script.js"></script>
     <script>
-      const whatsappBtns = document.querySelectorAll('.btn.whatsapp-trigger');
-    
-      whatsappBtns.forEach(btn => {
+    window.addEventListener('load', () => {
+      const btns = document.querySelectorAll('.btn.whatsapp-trigger');
+      btns.forEach(btn => {
         btn.addEventListener('click', () => {
-          gtag('event', 'click_whatsapp', {
-            'event_category': 'Contacto',
-            'event_label': 'Botón WhatsApp',
-          });
+          console.log('WhatsApp clicked');
+          if (typeof gtag === 'function') {
+            gtag('event', 'click_whatsapp', {
+              'event_category': 'buttons',
+              'event_label': 'WhatsApp Button'
+            });
+          }
         });
       });
+    });
     </script>
 
 
