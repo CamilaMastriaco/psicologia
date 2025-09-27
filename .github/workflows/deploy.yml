@@ -12,7 +12,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Replace GTM ID
+      - name: Replace GA ID
         run: |
           sed -i "s/__GA_ID__/${{ secrets.GA_ID }}/g" index.html
 
