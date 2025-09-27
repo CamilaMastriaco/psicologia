@@ -15,10 +15,11 @@ jobs:
 
       - name: Replace GA ID
         run: |
-          echo "Replacing __GA_ID__ with ${{ secrets.GA_ID }}"
-          sed -i "s/__GA_ID__/${{ secrets.GA_ID }}/g" index.html
+          echo "Replacing __GA_ID__ in index.html"
+          sed -i "s|__GA_ID__|${{ secrets.GA_ID }}|g" index.html
           echo "Preview of index.html after replacement:"
           head -n 20 index.html
+
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
