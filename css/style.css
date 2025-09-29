@@ -113,7 +113,7 @@ footer .copy { margin-top: 1.5rem; font-size: 0.8rem; }
     .about-text h2 { text-align: center; }
 }
 
-/* --- ESTILOS PARA ICONOS SOCIALES EN FOOTER (ACTUALIZADO) --- */
+/* --- ESTILOS PARA ICONOS SOCIALES EN FOOTER (CORRECCIÓN DE COLOR) --- */
 .social-icons {
     margin: 1.5rem 0;
     display: flex;
@@ -122,13 +122,23 @@ footer .copy { margin-top: 1.5rem; font-size: 0.8rem; }
 }
 
 .social-icons a {
-    color: var(--primary-color);
-    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: inline-block; 
+    transition: transform 0.3s ease;
+    color: transparent; 
+}
+
+.social-icons svg {
+    stroke: var(--primary-color);
+    stroke-width: 2;
+    transition: opacity 0.3s ease;
 }
 
 .social-icons a:hover {
-    opacity: 0.8;
     transform: scale(1.15) rotate(-5deg);
+}
+
+.social-icons a:hover svg {
+    opacity: 0.8;
 }
 
 .social-icons svg {
