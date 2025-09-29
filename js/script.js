@@ -34,6 +34,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const langOptions = document.querySelectorAll('.lang-option');
         const translatableElements = document.querySelectorAll('[data-lang-es]');
         const whatsappTriggers = document.querySelectorAll('.whatsapp-trigger');
+        const mainWhatsappButton = document.getElementById('whatsapp-link');
+        const baseWhatsappHref = mainWhatsappButton ? mainWhatsappButton.getAttribute('href') : null;
 
         if (langOptions.length > 0) {
             let currentLang = 'es';
@@ -46,14 +48,15 @@ document.addEventListener("DOMContentLoaded", function() {
                     if (text !== null) el.innerHTML = text; 
                 });
 
-                whatsappTriggers.forEach(link => {
-                    const baseHref = "https://wa.me/5491140695035";
-                    const rawMessage = link.getAttribute(`data-whatsapp-${lang}`);
-                    if (rawMessage) {
-                        const encodedMessage = encodeURIComponent(rawMessage);
-                        link.href = `${baseHref}?text=${encodedMessage}`;
-                    }
-                });
+                if (baseWhatsappHref) {
+                    whatsappTriggers.forEach(link => {
+                        const rawMessage = link.getAttribute(`data-whatsapp-${lang}`);
+                        if (rawMessage) {
+                            const encodedMessage = encodeURIComponent(rawMessage);
+                            link.href = `${baseWhatsappHref}?text=${encodedMessage}`;
+                        }
+                    });
+                }
 
                 langOptions.forEach(option => {
                     option.classList.toggle('active', option.dataset.lang === lang);
@@ -74,54 +77,62 @@ document.addEventListener("DOMContentLoaded", function() {
             
             switchLanguage('es'); 
         }
-    } catch (error)
-    {
+    } catch (error) {
         console.error("Error en el interruptor de idioma:", error);
     }
 
+    // --- BLOQUE DE TRACKING DE GOOGLE ANALYTICS ---
     try {
+        // --- NUEVO: TRACKING DE CLICS EN REDES SOCIALES ---
+        const socialLinks = document.querySelectorAll('.social-icons a');
+        socialLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                const socialNetwork = this.dataset.social;
+                if (typeof gtag === 'function' && socialNetwork) {
+                    gtag('event', 'social_link_click', {
+                        'event_category': 'outbound_link',
+                        'social_network': socialNetwork,
+                        'event_label': `Clicked ${socialNetwork} link in footer`
+                    });
+                    console.log(`Clic en ${socialNetwork}. Evento enviado a GA4.`);
+                }
+            });
+        });
+
+        // Tracking de clics en WhatsApp (ya lo tenías)
         const whatsappButtons = document.querySelectorAll('.whatsapp-trigger');
         whatsappButtons.forEach(button => {
             button.addEventListener('click', function() {
                 const location = this.dataset.location || 'unknown';
-
-                console.log(`WhatsApp clicked at: ${location}. Sending event to GA4...`); 
                 if (typeof gtag === 'function') {
                     gtag('event', 'whatsapp_click', {
                         'event_category': 'contact',
                         'button_location': location
                     });
-                } else {
-                    console.log('gtag function not found.');
                 }
             });
         });
 
+        // Tracking de vista de testimonios (ya lo tenías)
         const testimonialsSection = document.querySelector('#testimonios');
         let testimonialsViewed = false;
-
         if (testimonialsSection) {
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting && !testimonialsViewed) {
-                        console.log('Testimonials section is visible. Sending event...');
-                        
                         if (typeof gtag === 'function') {
                             gtag('event', 'view_testimonials', {
                                 'event_category': 'engagement',
                                 'event_label': 'User viewed testimonials section'
                             });
                         }
-                        
                         testimonialsViewed = true;
                         observer.unobserve(testimonialsSection);
                     }
                 });
             }, { threshold: 0.5 }); 
-
             observer.observe(testimonialsSection);
         }
-
     } catch(error) {
         console.error("Error al configurar el tracking de Google Analytics:", error);
     }
