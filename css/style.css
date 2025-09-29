@@ -112,3 +112,25 @@ footer .copy { margin-top: 1.5rem; font-size: 0.8rem; }
     .about-image { margin: 0 auto 2rem auto; }
     .about-text h2 { text-align: center; }
 }
+
+/* --- ESTILOS PARA ICONOS SOCIALES EN FOOTER (ACTUALIZADO) --- */
+.social-icons {
+    margin: 1.5rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.social-icons a {
+    color: var(--primary-color);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    opacity: 0.8;
+    transform: scale(1.15) rotate(-5deg);
+}
+
+.social-icons svg {
+    stroke-width: 2;
+}
