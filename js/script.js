@@ -41,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function() {
             function switchLanguage(lang) {
                 if (!lang) return;
 
-                // 1. Traducir textos
                 translatableElements.forEach(el => {
                     const text = el.getAttribute(`data-lang-${lang}`);
                     if (text !== null) el.innerHTML = text; 
@@ -75,7 +74,8 @@ document.addEventListener("DOMContentLoaded", function() {
             
             switchLanguage('es'); 
         }
-    } catch (error) {
+    } catch (error)
+    {
         console.error("Error en el interruptor de idioma:", error);
     }
 
@@ -83,19 +83,47 @@ document.addEventListener("DOMContentLoaded", function() {
         const whatsappButtons = document.querySelectorAll('.whatsapp-trigger');
         whatsappButtons.forEach(button => {
             button.addEventListener('click', function() {
-                console.log('WhatsApp clicked. Sending event to GA4...'); 
+                const location = this.dataset.location || 'unknown';
+
+                console.log(`WhatsApp clicked at: ${location}. Sending event to GA4...`); 
                 if (typeof gtag === 'function') {
                     gtag('event', 'whatsapp_click', {
                         'event_category': 'contact',
-                        'event_label': 'WhatsApp Button Clicked'
+                        'button_location': location
                     });
                 } else {
                     console.log('gtag function not found.');
                 }
             });
         });
+
+        const testimonialsSection = document.querySelector('#testimonios');
+        let testimonialsViewed = false;
+
+        if (testimonialsSection) {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting && !testimonialsViewed) {
+                        console.log('Testimonials section is visible. Sending event...');
+                        
+                        if (typeof gtag === 'function') {
+                            gtag('event', 'view_testimonials', {
+                                'event_category': 'engagement',
+                                'event_label': 'User viewed testimonials section'
+                            });
+                        }
+                        
+                        testimonialsViewed = true;
+                        observer.unobserve(testimonialsSection);
+                    }
+                });
+            }, { threshold: 0.5 }); 
+
+            observer.observe(testimonialsSection);
+        }
+
     } catch(error) {
-        console.error("Error al configurar el tracking de WhatsApp:", error);
+        console.error("Error al configurar el tracking de Google Analytics:", error);
     }
 
     try {
