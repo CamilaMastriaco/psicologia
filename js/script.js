@@ -95,9 +95,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("Error en el interruptor de idioma:", error);
     }
 
-    // --- BLOQUE DE TRACKING DE GOOGLE ANALYTICS ---
     try {
-        // --- NUEVO: TRACKING DE CLICS EN REDES SOCIALES ---
         const socialLinks = document.querySelectorAll('.social-icons a');
         socialLinks.forEach(link => {
             link.addEventListener('click', function() {
@@ -113,7 +111,6 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
 
-        // Tracking de clics en WhatsApp (ya lo tenías)
         const whatsappButtons = document.querySelectorAll('.whatsapp-trigger');
         whatsappButtons.forEach(button => {
             button.addEventListener('click', function() {
@@ -127,7 +124,6 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
 
-        // Tracking de vista de testimonios (ya lo tenías)
         const testimonialsSection = document.querySelector('#testimonios');
         let testimonialsViewed = false;
         if (testimonialsSection) {
@@ -152,21 +148,91 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     try {
-        if (typeof Swiper !== 'undefined' && document.querySelector('.swiper')) {
-            new Swiper('.swiper', {
+        const testimonialsCarousel = document.querySelector('#testimonios .swiper');
+        if (testimonialsCarousel) {
+            new Swiper(testimonialsCarousel, {
                 loop: true,
                 grabCursor: true,
                 autoplay: { delay: 5000, disableOnInteraction: false },
                 pagination: { el: '.swiper-pagination', clickable: true },
                 navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+                slidesPerView: 1,
+                spaceBetween: 20,
                 breakpoints: {
-                    640: { slidesPerView: 1, spaceBetween: 20 },
                     768: { slidesPerView: 2, spaceBetween: 30 },
                     1024: { slidesPerView: 3, spaceBetween: 30 },
                 }
             });
         }
+    
+        const categoryTitles = document.querySelectorAll('.category-title');
+        categoryTitles.forEach(title => {
+            title.addEventListener('click', () => {
+                title.classList.toggle('active');
+    
+                const content = title.nextElementSibling;
+                if (content && content.classList.contains('collapsible-content')) {
+                    content.classList.toggle('active');
+    
+                    const swiperContainer = content.querySelector('.swiper');
+                    if (swiperContainer && !swiperContainer.swiper) {
+                        new Swiper(swiperContainer, {
+                            grabCursor: true,
+                            slidesPerView: 1,
+                            spaceBetween: 20,
+                            navigation: {
+                                nextEl: swiperContainer.querySelector('.swiper-button-next'),
+                                prevEl: swiperContainer.querySelector('.swiper-button-prev'),
+                            },
+                            breakpoints: {
+                                640: { slidesPerView: 2, spaceBetween: 20 },
+                                960: { slidesPerView: 3, spaceBetween: 30 },
+                            }
+                        });
+                    }
+                }
+            });
+        });
+    
     } catch (error) {
-        console.error("No se pudo inicializar el carrusel Swiper:", error);
+        console.error("No se pudo inicializar un carrusel Swiper o el acordeón:", error);
+    }
+
+    try {
+        if (document.querySelector('#testimonios .swiper')) {
+            new Swiper('#testimonios .swiper', {
+                loop: true,
+                grabCursor: true,
+                autoplay: { delay: 5000, disableOnInteraction: false },
+                pagination: { el: '.swiper-pagination', clickable: true },
+                navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
+                slidesPerView: 1,
+                spaceBetween: 20,
+                breakpoints: {
+                    768: { slidesPerView: 2, spaceBetween: 30 },
+                    1024: { slidesPerView: 3, spaceBetween: 30 },
+                }
+            });
+        }
+    
+        const blogCarousels = document.querySelectorAll('.blog-carousel');
+        blogCarousels.forEach(carousel => {
+            new Swiper(carousel, {
+                grabCursor: true,
+                slidesPerView: 1,
+                spaceBetween: 20,
+                navigation: {
+                    nextEl: carousel.querySelector('.swiper-button-next'),
+                    prevEl: carousel.querySelector('.swiper-button-prev'),
+                },
+                breakpoints: {
+                    640: { slidesPerView: 2, spaceBetween: 20 },
+                    960: { slidesPerView: 3, spaceBetween: 30 },
+                }
+            });
+        });
+    
+    } catch (error) {
+        console.error("No se pudo inicializar un carrusel Swiper:", error);
     }
 });
