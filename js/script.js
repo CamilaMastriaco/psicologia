@@ -51,46 +51,43 @@ document.addEventListener("DOMContentLoaded", function() {
         const mainWhatsappButton = document.getElementById('whatsapp-link');
         const baseWhatsappHref = mainWhatsappButton ? mainWhatsappButton.getAttribute('href') : null;
 
-        if (langOptions.length > 0) {
-            let currentLang = 'es';
+        const savedLang = localStorage.getItem('preferredLanguage') || 'es';
 
-            function switchLanguage(lang) {
-                if (!lang) return;
+        function switchLanguage(lang) {
+            if (!lang) return;
 
-                translatableElements.forEach(el => {
-                    const text = el.getAttribute(`data-lang-${lang}`);
-                    if (text !== null) el.innerHTML = text; 
+            translatableElements.forEach(el => {
+                const text = el.getAttribute(`data-lang-${lang}`);
+                if (text !== null) el.innerHTML = text;
+            });
+
+            if (baseWhatsappHref) {
+                whatsappTriggers.forEach(link => {
+                    const rawMessage = link.getAttribute(`data-whatsapp-${lang}`);
+                    if (rawMessage) {
+                        const encodedMessage = encodeURIComponent(rawMessage);
+                        link.href = `${baseWhatsappHref}?text=${encodedMessage}`;
+                    }
                 });
-
-                if (baseWhatsappHref) {
-                    whatsappTriggers.forEach(link => {
-                        const rawMessage = link.getAttribute(`data-whatsapp-${lang}`);
-                        if (rawMessage) {
-                            const encodedMessage = encodeURIComponent(rawMessage);
-                            link.href = `${baseWhatsappHref}?text=${encodedMessage}`;
-                        }
-                    });
-                }
-
-                langOptions.forEach(option => {
-                    option.classList.toggle('active', option.dataset.lang === lang);
-                });
-
-                document.documentElement.lang = lang;
-                currentLang = lang;
             }
 
             langOptions.forEach(option => {
-                option.addEventListener('click', () => {
-                    const selectedLang = option.dataset.lang;
-                    if (selectedLang !== currentLang) {
-                        switchLanguage(selectedLang);
-                    }
-                });
+                option.classList.toggle('active', option.dataset.lang === lang);
             });
-            
-            switchLanguage('es'); 
+
+            document.documentElement.lang = lang;
         }
+
+        langOptions.forEach(option => {
+            option.addEventListener('click', () => {
+                const selectedLang = option.dataset.lang;
+                switchLanguage(selectedLang);
+                localStorage.setItem('preferredLanguage', selectedLang);
+            });
+        });
+
+        switchLanguage(savedLang);
+
     } catch (error) {
         console.error("Error en el interruptor de idioma:", error);
     }
