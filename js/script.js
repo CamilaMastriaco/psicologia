@@ -1,6 +1,20 @@
 document.addEventListener("DOMContentLoaded", function() {
 
     try {
+        const currentPath = window.location.pathname.split('/').pop() || 'index.html'; 
+        const navLinks = document.querySelectorAll('nav a');
+        
+        navLinks.forEach(link => {
+            const linkPath = link.getAttribute('href');
+            if (linkPath === currentPath) {
+                link.classList.add('active');
+            }
+        });
+    } catch (error) {
+        console.error("Error al resaltar el enlace activo:", error);
+    }
+
+    try {
         const animatedSections = document.querySelectorAll('.animate-on-scroll');
         if (animatedSections.length > 0) {
             const sectionObserver = new IntersectionObserver((entries, observer) => {
