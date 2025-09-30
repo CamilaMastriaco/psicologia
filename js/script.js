@@ -196,18 +196,20 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 
     try {
-        if (document.querySelector('#testimonios .swiper')) {
-            new Swiper('#testimonios .swiper', {
+        const testimonialsCarousel = document.querySelector('#testimonios .swiper');
+        if (testimonialsCarousel) {
+            new Swiper(testimonialsCarousel, {
                 loop: true,
                 grabCursor: true,
                 autoplay: { delay: 5000, disableOnInteraction: false },
                 pagination: { el: '.swiper-pagination', clickable: true },
                 navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev' },
-                slidesPerView: 1,
-                spaceBetween: 20,
+                slidesPerView: 1.25,
+                spaceBetween: 15,
+                centeredSlides: true,
                 breakpoints: {
-                    768: { slidesPerView: 2, spaceBetween: 30 },
-                    1024: { slidesPerView: 3, spaceBetween: 30 },
+                    768: { slidesPerView: 2, spaceBetween: 30, centeredSlides: false },
+                    1024: { slidesPerView: 3, spaceBetween: 30, centeredSlides: false },
                 }
             });
         }
@@ -216,8 +218,8 @@ document.addEventListener("DOMContentLoaded", function() {
         blogCarousels.forEach(carousel => {
             new Swiper(carousel, {
                 grabCursor: true,
-                slidesPerView: 1,
-                spaceBetween: 20,
+                slidesPerView: 1.25, 
+                spaceBetween: 15,
                 navigation: {
                     nextEl: carousel.querySelector('.swiper-button-next'),
                     prevEl: carousel.querySelector('.swiper-button-prev'),
@@ -229,7 +231,22 @@ document.addEventListener("DOMContentLoaded", function() {
             });
         });
     
+        const categoryTitles = document.querySelectorAll('.category-title');
+        categoryTitles.forEach(title => {
+            const content = title.nextElementSibling;
+            if (content) {
+                title.addEventListener('click', () => {
+                    title.classList.toggle('active');
+                    if (content.style.display === "block") {
+                        content.style.display = "none";
+                    } else {
+                        content.style.display = "block";
+                    }
+                });
+            }
+        });
+    
     } catch (error) {
-        console.error("No se pudo inicializar un carrusel Swiper:", error);
+        console.error("Error al inicializar Swiper o el acordeón:", error);
     }
 });

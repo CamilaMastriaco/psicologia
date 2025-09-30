@@ -175,7 +175,7 @@ section .container > h3 {
 
 #testimonios .swiper { 
     width: 100%; 
-    padding: 20px 10px 50px 10px;
+    padding: 20px 0 50px 0; 
 }
 
 #testimonios .swiper-slide { 
@@ -550,6 +550,127 @@ nav a:hover, nav a.active {
     border-top: 1px dashed #ccc;
 }
 
+#cta-post > * {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.category-section {
+    margin-bottom: 20px;
+}
+
+.category-title {
+    background-color: var(--card-bg);
+    color: var(--primary-color);
+    padding: 18px 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    font-size: 1.8rem;
+    margin-bottom: 0;
+}
+
+.category-title:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(109, 40, 217, 0.2);
+}
+
+.category-title::after {
+    content: '▼';
+    font-size: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.category-title.active::after {
+    transform: rotate(180deg);
+}
+
+.collapsible-content {
+    display: none; 
+}
+
+.blog-carousel {
+    width: 100%;
+    padding: 25px 0 40px 0;
+    position: relative;
+}
+
+.blog-carousel .swiper-slide {
+    height: auto;
+    display: flex;
+}
+
+.blog-carousel .blog-post-card {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-carousel .post-card-content h2 {
+    font-size: 1.5rem;
+}
+
+.blog-carousel .swiper-button-next,
+.blog-carousel .swiper-button-prev {
+    --swiper-navigation-size: 20px;
+    width: 44px;
+    height: 44px;
+    background-color: var(--card-bg);
+    color: var(--primary-color);
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.blog-carousel .swiper-button-next {
+    right: -10px;
+}
+
+.blog-carousel .swiper-button-prev {
+    left: -10px;
+}
+
+.blog-carousel .swiper-button-next:hover,
+.blog-carousel .swiper-button-prev:hover {
+    transform: translateY(-50%) scale(1.05);
+}
+
+@media (max-width: 980px) { 
+    .blog-carousel .swiper-button-next,
+    .blog-carousel .swiper-button-prev {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: row;
+        justify-content: space-between; 
+        align-items: center;
+        padding-top: 10px; 
+        padding-bottom: 10px;
+    }
+    
+    nav {
+        margin-left: auto;
+    }
+
+    .logo {
+        font-size: 1rem; 
+    }
+
+    .category-title {
+        font-size: 1.5rem;
+    }
+}
+
 @media (max-width: 768px) {
     h1 { font-size: 2.5rem; }
     h2 { font-size: 2rem; }
@@ -557,14 +678,21 @@ nav a:hover, nav a.active {
     .about-container, .steps-container { grid-template-columns: 1fr; text-align: center; }
     .about-image { margin: 0 auto 2rem auto; }
     .about-text h2 { text-align: center; }
-    header .container {
-        flex-direction: column;
-        gap: 10px;
-    }
-    nav ul {
-        gap: 10px;
-    }
     
+    header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; 
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+
     .post-card-content h2 {
         font-size: 1.5rem;
     }
@@ -588,115 +716,12 @@ nav a:hover, nav a.active {
     #testimonios .swiper-button-prev {
         display: none;
     }
-}
 
-#cta-post > * {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.category-section {
-    margin-bottom: 60px; 
-}
-
-.category-section h3 {
-    text-align: left;
-    font-size: 2.2rem;
-    color: var(--primary-color);
-    margin-bottom: 25px;
-    border-bottom: 2px solid var(--secondary-color);
-    padding-bottom: 10px;
-}
-
-.blog-carousel {
-    width: 100%;
-    padding: 10px 10px 40px 10px; 
-}
-
-.blog-carousel .swiper-slide {
-    height: auto; 
-    display: flex;
-}
-
-.blog-carousel .blog-post-card {
-    width: 100%;
-    height: 100%;
-    margin-bottom: 0;
-}
-
-.blog-carousel .post-card-content {
-    display: flex;
-    flex-direction: column;
-}
-
-.blog-carousel .post-card-content h2 {
-    font-size: 1.5rem; 
-}
-
-.blog-carousel .swiper-button-next,
-.blog-carousel .swiper-button-prev {
-    --swiper-navigation-size: 20px;
-    width: 44px;
-    height: 44px;
-    background-color: var(--card-bg);
-    color: var(--primary-color);
-    border-radius: 50%;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    top: 50%;
-    transform: translateY(-70%);
-}
-
-.blog-carousel .swiper-button-next:hover,
-.blog-carousel .swiper-button-prev:hover {
-    transform: translateY(-70%) scale(1.05);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
-}
-
-
-.category-title {
-    cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-}
-
-.category-title::after {
-    content: '▼';
-    font-size: 1rem;
-    color: var(--primary-color);
-    transition: transform 0.3s ease;
-}
-
-.category-title.active::after {
-    transform: rotate(180deg);
-}
-
-.collapsible-content {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-
-.collapsible-content.active {
-    padding-top: 10px;
-    padding-bottom: 40px;
-    max-height: 500px; 
-}
-
-
-
-@media (max-width: 768px) {
-    .category-section h3 {
-        font-size: 1.8rem;
+    .category-title {
+        font-size: 1.5rem;
     }
     .blog-carousel .swiper-button-next,
     .blog-carousel .swiper-button-prev {
-        display: none; 
+        display: none;
     }
 }
-
