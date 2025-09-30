@@ -147,7 +147,6 @@ section .container > h3 {
     gap: 30px;
 }
 
-/* --- CAMBIO AQUÍ: Eliminamos el estilo de "caja" de los pasos --- */
 .step-card {
     background-color: transparent;
     padding: 0;
@@ -156,10 +155,9 @@ section .container > h3 {
     transition: none;
 }
 .step-card:hover {
-    transform: none; /* Remove hover effect */
+    transform: none;
     box-shadow: none;
 }
-/* --- Fin del cambio --- */
 
 .step-number {
     font-size: 2.5rem;
@@ -383,7 +381,6 @@ nav a:hover, nav a.active {
     color: inherit;
     background-color: var(--card-bg);
     border-radius: 12px;
-    margin-bottom: 30px;
     box-shadow: 0 8px 20px -5px rgba(109, 40, 217, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     overflow: hidden;
@@ -598,3 +595,108 @@ nav a:hover, nav a.active {
     margin-left: auto;
     margin-right: auto;
 }
+
+.category-section {
+    margin-bottom: 60px; 
+}
+
+.category-section h3 {
+    text-align: left;
+    font-size: 2.2rem;
+    color: var(--primary-color);
+    margin-bottom: 25px;
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 10px;
+}
+
+.blog-carousel {
+    width: 100%;
+    padding: 10px 10px 40px 10px; 
+}
+
+.blog-carousel .swiper-slide {
+    height: auto; 
+    display: flex;
+}
+
+.blog-carousel .blog-post-card {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+
+.blog-carousel .post-card-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-carousel .post-card-content h2 {
+    font-size: 1.5rem; 
+}
+
+.blog-carousel .swiper-button-next,
+.blog-carousel .swiper-button-prev {
+    --swiper-navigation-size: 20px;
+    width: 44px;
+    height: 44px;
+    background-color: var(--card-bg);
+    color: var(--primary-color);
+    border-radius: 50%;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    top: 50%;
+    transform: translateY(-70%);
+}
+
+.blog-carousel .swiper-button-next:hover,
+.blog-carousel .swiper-button-prev:hover {
+    transform: translateY(-70%) scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+}
+
+
+.category-title {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.category-title::after {
+    content: '▼';
+    font-size: 1rem;
+    color: var(--primary-color);
+    transition: transform 0.3s ease;
+}
+
+.category-title.active::after {
+    transform: rotate(180deg);
+}
+
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.collapsible-content.active {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    max-height: 500px; 
+}
+
+
+
+@media (max-width: 768px) {
+    .category-section h3 {
+        font-size: 1.8rem;
+    }
+    .blog-carousel .swiper-button-next,
+    .blog-carousel .swiper-button-prev {
+        display: none; 
+    }
+}
+
