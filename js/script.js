@@ -224,7 +224,11 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
-const yearSpan = document.querySelector('.copy'); 
-if (yearSpan) {
-    yearSpan.innerHTML = `&copy; ${new Date().getFullYear()} Camila Mastriaco. Todos los derechos reservados.`;
-}
+try {
+    const yearElement = document.getElementById('current-year');
+    if (yearElement) {
+        yearElement.textContent = new Date().getFullYear();
+    }
+} catch (error) {
+    console.error("Error al actualizar el año del copyright:", error);
+};
