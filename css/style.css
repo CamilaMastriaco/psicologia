@@ -725,3 +725,25 @@ nav a:hover, nav a.active {
         display: none;
     }
 }
+
+.post-disclaimer {
+    max-width: 750px; /* Mantiene la alineación con el resto del contenido */
+    margin: 40px auto 0 auto; /* Espacio para separarlo del artículo */
+    padding: 15px 20px; /* Menos padding vertical para que sea más compacto */
+    background-color: #f8f9fa; /* Un fondo muy sutil, casi imperceptible */
+    border-left: 3px solid #e0e0e0; /* Un borde izquierdo delgado y de color gris claro */
+    border-radius: 0 4px 4px 0;
+}
+
+.post-disclaimer p {
+    font-size: 0.85rem;  /* Letra notablemente más pequeña que el cuerpo del texto */
+    line-height: 1.6;    /* Interlineado más ajustado para un bloque compacto */
+    color: #6c757d;      /* Color de texto gris, para que no compita con el contenido principal */
+    margin-bottom: 0;    /* Elimina el espacio extra debajo del párrafo */
+    max-width: none;     /* Asegura que el texto ocupe todo el ancho del contenedor */
+}
+
+.post-disclaimer strong {
+    color: #495057;      /* Un gris un poco más oscuro para el "Nota:" */
+    font-weight: 600;    /* Un grosor semibold, no tan pesado */
+}
