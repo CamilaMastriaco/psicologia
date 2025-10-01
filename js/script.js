@@ -141,3 +141,52 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("Error al configurar el tracking de GA4:", error);
     }
 });
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const shareContainer = document.getElementById('share-buttons-container');
+
+    if (shareContainer) {
+        const postUrl = encodeURIComponent(window.location.href);
+        const postTitle = encodeURIComponent(document.title.split('|')[0].trim());
+
+        const socialNetworks = [
+            { name: 'Facebook', icon: 'fab fa-facebook-f', class: 'share-facebook', url: `https://www.facebook.com/sharer/sharer.php?u=${postUrl}` },
+            { name: 'WhatsApp', icon: 'fab fa-whatsapp', class: 'share-whatsapp', url: `https://api.whatsapp.com/send?text=${postTitle}%20${postUrl}` },
+            { name: 'LinkedIn', icon: 'fab fa-linkedin-in', class: 'share-linkedin', url: `https://www.linkedin.com/shareArticle?mini=true&url=${postUrl}&title=${postTitle}` },
+            { name: 'X', icon: 'fab fa-twitter', class: 'share-x', url: `https://twitter.com/intent/tweet?url=${postUrl}&text=${postTitle}` },
+            { name: 'Email', icon: 'fas fa-envelope', class: 'share-email', url: `mailto:?subject=${postTitle}&body=Te recomiendo leer este artículo: ${postUrl}` },
+            { name: 'Copiar', icon: 'fas fa-copy', class: 'share-copy', url: '#' } // Botón especial para copiar
+        ];
+
+        let buttonsHTML = '';
+        socialNetworks.forEach(network => {
+            buttonsHTML += `
+                <a href="${network.url}" class="share-button ${network.class}" target="_blank" rel="noopener noreferrer" title="Compartir en ${network.name}">
+                    <i class="${network.icon}"></i>
+                    <span>${network.name}</span>
+                </a>
+            `;
+        });
+
+        shareContainer.innerHTML = buttonsHTML;
+
+        const copyButton = shareContainer.querySelector('.share-copy');
+        if (copyButton) {
+            copyButton.addEventListener('click', function(e) {
+                e.preventDefault();
+                const urlToCopy = decodeURIComponent(postUrl);
+                navigator.clipboard.writeText(urlToCopy).then(() => {
+                    const originalText = copyButton.querySelector('span').textContent;
+                    copyButton.querySelector('span').textContent = '¡Copiado!';
+                    setTimeout(() => {
+                        copyButton.querySelector('span').textContent = originalText;
+                    }, 2000);
+                }).catch(err => {
+                    console.error('Error al copiar el enlace: ', err);
+                    alert('No se pudo copiar el enlace.');
+                });
+            });
+        }
+    }
+});
