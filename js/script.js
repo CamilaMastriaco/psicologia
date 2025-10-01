@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (!lang) return;
 
             translatableElements.forEach(el => {
-                const text = el.dataset[`lang${lang.charAt(0).toUpperCase() + lang.slice(1)}`]; // ej. dataset.langEs
+                const text = el.dataset[`lang${lang.charAt(0).toUpperCase() + lang.slice(1)}`];
                 if (text) el.innerHTML = text;
             });
 
