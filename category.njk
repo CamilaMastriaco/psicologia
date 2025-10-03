@@ -6,18 +6,24 @@ pagination:
   alias: tag
 permalink: "/blog/categoria/{{ tag | slug }}/"
 eleventyComputed:
-  title: "Notas sobre {{ categoryNames[tag].es | default(tag) }} | Blog Camila Mastriaco"
-  title_en: "Notes about {{ categoryNames[tag].en | default(tag) }} | Blog Camila Mastriaco"
+  title: "Notas sobre {{ categoryInfo[tag].es.name | default(tag) }} | Blog Camila Mastriaco"
+  title_en: "Notes about {{ categoryInfo[tag].en.name | default(tag) }} | Blog Camila Mastriaco"
+  
 ---
 
 
 <main>
     <section id="blog-hero" class="animate-on-scroll section-divider">
         <div class="container">
-            <h1 data-lang-es="Notas sobre: {{ tag | getCategoryName('es') }}" 
-                data-lang-en="Notes about: {{ tag | getCategoryName('en') }}">
-                Notas sobre: {{ tag | getCategoryName('es') }}
+            <h1 data-lang-es="Notas sobre {{ categoryInfo[tag].es.name }}" 
+                data-lang-en="Notes about {{ categoryInfo[tag].en.name }}">
+                Notas sobre {{ categoryInfo[tag].es.name }}
             </h1>
+        <p class="category-description" 
+        data-lang-es="{{ categoryInfo[tag].es.description }}"
+        data-lang-en="{{ categoryInfo[tag].en.description }}">
+        {{ categoryInfo[tag].es.description }}
+        </p>
         </div>
     </section>
 
