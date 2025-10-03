@@ -305,3 +305,41 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error("Error en la lógica del banner de cookies:", error);
     }
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    try {
+        if (window.innerWidth <= 768) {
+            const sobreMiSection = document.getElementById('sobre-mi');
+            const flipCardInner = document.querySelector('.flip-card-inner');
+
+            if (!sobreMiSection || !flipCardInner) return;
+
+            const observerOptions = {
+                root: null,
+                threshold: 0.6 
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        
+                        setTimeout(() => {
+                            flipCardInner.classList.add('is-flipped');
+
+                            setTimeout(() => {
+                                flipCardInner.classList.remove('is-flipped');
+                            }, 3000); 
+
+                        }, 1000); 
+
+                        observer.unobserve(sobreMiSection);
+                    }
+                });
+            }, observerOptions);
+
+            observer.observe(sobreMiSection);
+        }
+    } catch (error) {
+        console.error("Error en la lógica de giro de tarjeta en móvil:", error);
+    }
+});
