@@ -757,6 +757,11 @@ nav a:hover, nav a.active {
     box-shadow: 0 10px 40px -5px rgba(109, 40, 217, 0.6); 
 }
 
+.flip-card-inner.is-flipped {
+    transform: rotateY(180deg);
+}
+
+
 .flip-card-front, .flip-card-back {
     position: absolute;
     width: 100%;
@@ -831,6 +836,22 @@ nav a:hover, nav a.active {
         padding-top: 60px; 
         padding-bottom: 90px; 
     }
+    footer {
+        padding-top: 40px;
+        padding-bottom: 100px;
+        position: relative;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+    }
+
+    .legal-links {
+        font-size: 0.85rem;
+        margin-top: 1.5rem !important;
+    }
+
     h1 { font-size: 2.5rem; }
     h2 { font-size: 2rem; }
     section { padding: 60px 0; }
