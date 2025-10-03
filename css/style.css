@@ -899,3 +899,102 @@ nav a:hover, nav a.active {
         justify-content: center; 
     }
 }
+
+/* --- ESTILOS PARA EL BANNER DE COOKIES PROFESIONAL --- */
+.cookie-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    max-width: 960px; /* Coincide con el .container para alineación */
+    margin: 0 auto;
+    background-color: var(--card-bg);
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+    z-index: 10000;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+    pointer-events: none;
+}
+
+.cookie-banner.active {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.cookie-banner__content {
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.cookie-banner__text {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--text-color-soft);
+}
+
+.cookie-banner__link {
+    color: var(--primary-color);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.cookie-banner__actions {
+    display: flex;
+    gap: 10px;
+    flex-shrink: 0; /* Evita que los botones se achiquen */
+}
+
+.cookie-banner__button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: var(--font-main);
+    font-size: 0.9rem;
+}
+
+.cookie-banner__button--accept {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+.cookie-banner__button--accept:hover {
+    background-color: #5b21b6;
+    transform: translateY(-2px);
+}
+
+.cookie-banner__button--reject {
+    background-color: transparent;
+    color: var(--text-color-soft);
+    border: 1px solid #d1d5db;
+}
+.cookie-banner__button--reject:hover {
+    background-color: #f3f4f6;
+    border-color: #9ca3af;
+}
+
+/* --- Media Query para pantallas pequeñas --- */
+@media (max-width: 768px) {
+    .cookie-banner {
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+    .cookie-banner__content {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    .cookie-banner__actions {
+        width: 100%;
+        justify-content: center;
+    }
+}
