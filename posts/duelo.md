@@ -45,13 +45,9 @@ description_en: "By Lic. Camila Mastriaco | February 18, 2025 | Category: Grief"
         <p class="instagram-inline-cta" data-lang-es="¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a>" data-lang-en="Did you like this note? I frequently post content on psychology and well-being. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>Follow me on Instagram!</a>">¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a></p>
     </div>
     
-    <div class="post-disclaimer">
-<p data-lang-es="<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental." data-lang-en="<strong>Disclaimer:</strong> This article is for informational and psychoeducational purposes only. It is not a substitute for a professional diagnosis or an individual therapeutic process. If you are going through a difficult time or feel you need help, do not hesitate to seek support from a mental health professional.">
-<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental.
-</p>
-</div>
+    {% postDisclaimer %}
 
-<section id="cta-post" class="animate-on-scroll">
+<section id="cta-post" class="no-padding-bottom" class="animate-on-scroll">
         <h2 data-lang-es="¿Estás atravesando un duelo?" data-lang-en="Are you going through a grieving process?">¿Estás atravesando un duelo?</h2>
         <p data-lang-es="Si sentís que el dolor de una pérdida es abrumador y necesitás un espacio seguro para procesar tus emociones, estoy acá para acompañarte en tu proceso." data-lang-en="If you feel that the pain of a loss is overwhelming and you need a safe space to process your emotions, I am here to accompany you in your process.">Si sentís que el dolor de una pérdida es abrumador y necesitás un espacio seguro para procesar tus emociones, estoy acá para acompañarte en tu proceso.</p>
         <a 

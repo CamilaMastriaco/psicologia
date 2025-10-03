@@ -20,12 +20,12 @@
 
     <meta name="description" content="{{ description or 'Terapia online en español e inglés con la Lic. Camila Mastriaco. Un espacio seguro para tu bienestar emocional.' }}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://camilamastriaco.github.io/psicologia/">
+    <meta property="og:url" content="https://camilamastriaco.github.io/psicologia{{ page.url | url }}">
     <meta property="og:title" content='{{ title or "Lic. Camila Mastriaco | Terapia Online" }}'>
     <meta property="og:description" content='{{ description or "Terapia online en español e inglés. Un espacio seguro para tu bienestar emocional." }}'>
     <meta property="og:image" content='{{ og_image or "https://camilamastriaco.github.io/psicologia/assets/social-preview.jpg" }}'>
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://camilamastriaco.github.io/psicologia/">
+    <meta property="twitter:url" content="https://camilamastriaco.github.io/psicologia{{ page.url | url }}">
     <meta property="twitter:title" content="Lic. Camila Mastriaco | Terapia Online">
     <meta property="twitter:description" content="Terapia online en español e inglés. Un espacio seguro para tu bienestar emocional.">
     <meta property="twitter:image" content="https://camilamastriaco.github.io/psicologia/assets/social-preview.jpg">
@@ -106,6 +106,10 @@
             </div>
 
             <p class="copy">&copy; <span id="current-year"></span> Camila Mastriaco. Todos los derechos reservados.</p>
+            <div class="legal-links" style="margin-top: 1rem; font-size: 0.9rem;">
+                <a href="{{ '/politica-privacidad/' | url }}" data-lang-es="Política de Privacidad" data-lang-en="Privacy Policy">Política de Privacidad</a> | 
+                <a href="{{ '/aviso-legal/' | url }}" data-lang-es="Aviso Legal" data-lang-en="Legal Notice">Aviso Legal</a>
+            </div>
         </div>
     </footer>
 

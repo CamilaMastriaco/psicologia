@@ -43,13 +43,9 @@ description_en: "By Lic. Camila Mastriaco | September 25, 2025 | Category: Anxie
     </div>
     
     
-    <div class="post-disclaimer">
-<p data-lang-es="<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental." data-lang-en="<strong>Disclaimer:</strong> This article is for informational and psychoeducational purposes only. It is not a substitute for a professional diagnosis or an individual therapeutic process. If you are going through a difficult time or feel you need help, do not hesitate to seek support from a mental health professional.">
-<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental.
-</p>
-</div>
+    {% postDisclaimer %}
 
-<section id="cta-post" class="animate-on-scroll">
+<section id="cta-post" class="no-padding-bottom" class="animate-on-scroll">
         <h2 data-lang-es="¿Sentís que la Ansiedad te Supera? Hablemos." data-lang-en="Do You Feel Anxiety is Overwhelming You? Let's Talk.">¿Sentís que la Ansiedad te Supera? Hablemos.</h2>
         <p data-lang-es="Si estas señales te resuenan y estás lista/o para empezar a trabajar en tu bienestar, estoy aquí para acompañarte." data-lang-en="If these signs resonate with you and you're ready to start working on your well-being, I'm here to support you.">Si estas señales te resuenan y estás lista/o para empezar a trabajar en tu bienestar, estoy aquí para acompañarte.</p>
         <a 

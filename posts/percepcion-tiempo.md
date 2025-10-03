@@ -37,13 +37,9 @@ description_en: "By Lic. Camila Mastriaco | January 13, 2025 | Category: Cogniti
         <p class="instagram-inline-cta" data-lang-es="¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a>" data-lang-en="Did you like this note? I frequently post content on psychology and well-being. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>Follow me on Instagram!</a>">¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a></p>
     </div>
     
-    <div class="post-disclaimer">
-<p data-lang-es="<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental." data-lang-en="<strong>Disclaimer:</strong> This article is for informational and psychoeducational purposes only. It is not a substitute for a professional diagnosis or an individual therapeutic process. If you are going through a difficult time or feel you need help, do not hesitate to seek support from a mental health professional.">
-<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental.
-</p>
-</div>
+    {% postDisclaimer %}
 
-<section id="cta-post" class="animate-on-scroll">
+<section id="cta-post" class="no-padding-bottom" class="animate-on-scroll">
         <h2 data-lang-es="¿Querés aprender a vivir más en el presente?" data-lang-en="Want to learn to live more in the present?">¿Querés aprender a vivir más en el presente?</h2>
         <p data-lang-es="Entender cómo funciona nuestra percepción del tiempo nos invita a buscar más momentos de &quot;flow&quot; y novedad. Si sentís que el tiempo se te escapa o que vivís atrapado/a en la ansiedad de la espera, la terapia puede ayudarte." data-lang-en="Understanding how our perception of time works invites us to seek more moments of 'flow' and novelty. If you feel that time is slipping away or that you are trapped in the anxiety of waiting, therapy can help.">Entender cómo funciona nuestra percepción del tiempo nos invita a buscar más momentos de "flow" y novedad. Si sentís que el tiempo se te escapa o que vivís atrapado/a en la ansiedad de la espera, la terapia puede ayudarte.</p>
         <a 

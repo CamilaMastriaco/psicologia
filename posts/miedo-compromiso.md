@@ -52,13 +52,9 @@ description_en: "By Lic. Camila Mastriaco | March 28, 2025 | Category: Relations
         <p class="instagram-inline-cta" data-lang-es="¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a>" data-lang-en="Did you like this note? I frequently post content on psychology and well-being. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>Follow me on Instagram!</a>">¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a></p>
     </div>
     
-    <div class="post-disclaimer">
-<p data-lang-es="<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental." data-lang-en="<strong>Disclaimer:</strong> This article is for informational and psychoeducational purposes only. It is not a substitute for a professional diagnosis or an individual therapeutic process. If you are going through a difficult time or feel you need help, do not hesitate to seek support from a mental health professional.">
-<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental.
-</p>
-</div>
+    {% postDisclaimer %}
 
-<section id="cta-post" class="animate-on-scroll">
+<section id="cta-post" class="no-padding-bottom" class="animate-on-scroll">
         <h2 data-lang-es="¿El miedo al compromiso te frena?" data-lang-en="Does fear of commitment hold you back?">¿El miedo al compromiso te frena?</h2>
         <p data-lang-es="Si sentís que este miedo está afectando tu capacidad de construir relaciones significativas y felices, estoy acá para ayudarte a entenderlo y superarlo." data-lang-en="If you feel that this fear is affecting your ability to build meaningful and happy relationships, I am here to help you understand and overcome it.">Si sentís que este miedo está afectando tu capacidad de construir relaciones significativas y felices, estoy acá para ayudarte a entenderlo y superarlo.</p>
         <a 

@@ -44,13 +44,9 @@ description_en: "By Lic. Camila Mastriaco | November 23, 2024 | Category: Self-C
         <p class="instagram-inline-cta" data-lang-es="¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a>" data-lang-en="Did you like this note? I frequently post content on psychology and well-being. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>Follow me on Instagram!</a>">¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a></p>
     </div>
     
-    <div class="post-disclaimer">
-<p data-lang-es="<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental." data-lang-en="<strong>Disclaimer:</strong> This article is for informational and psychoeducational purposes only. It is not a substitute for a professional diagnosis or an individual therapeutic process. If you are going through a difficult time or feel you need help, do not hesitate to seek support from a mental health professional.">
-<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental.
-</p>
-</div>
+    {% postDisclaimer %}
 
-<section id="cta-post" class="animate-on-scroll">
+<section id="cta-post" class="no-padding-bottom" class="animate-on-scroll">
         <h2 data-lang-es="¿La culpa te impide avanzar?" data-lang-en="Is guilt holding you back?">¿La culpa te impide avanzar?</h2>
         <p data-lang-es="Si sentís que la culpa es un peso constante en tu vida y querés aprender a relacionarte con ella de una manera más sana y compasiva, estoy acá para ayudarte." data-lang-en="If you feel that guilt is a constant weight in your life and you want to learn to relate to it in a healthier, more compassionate way, I'm here to help you.">Si sentís que la culpa es un peso constante en tu vida y querés aprender a relacionarte con ella de una manera más sana y compasiva, estoy acá para ayudarte.</p>
         <a 

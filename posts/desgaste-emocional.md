@@ -44,13 +44,9 @@ description_en: "By Lic. Camila Mastriaco | November 09, 2024 | Category: Relati
         <p class="instagram-inline-cta" data-lang-es="¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a>" data-lang-en="Did you like this note? I frequently post content on psychology and well-being. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>Follow me on Instagram!</a>">¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a></p>
     </div>
     
-    <div class="post-disclaimer">
-<p data-lang-es="<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental." data-lang-en="<strong>Disclaimer:</strong> This article is for informational and psychoeducational purposes only. It is not a substitute for a professional diagnosis or an individual therapeutic process. If you are going through a difficult time or feel you need help, do not hesitate to seek support from a mental health professional.">
-<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental.
-</p>
-</div>
+    {% postDisclaimer %}
 
-<section id="cta-post" class="animate-on-scroll">
+<section id="cta-post" class="no-padding-bottom" class="animate-on-scroll">
         <h2 data-lang-es="¿Sentís que tu relación está en equilibrio?" data-lang-en="Do you feel your relationship is in balance?">¿Sentís que tu relación está en equilibrio?</h2>
         <p data-lang-es="Si te identificás con estas señales de desgaste emocional y querés herramientas para reconectar con tu pareja, estoy aquí para acompañarlos." data-lang-en="If you identify with these signs of emotional burnout and want tools to reconnect with your partner, I'm here to support you.">Si te identificás con estas señales de desgaste emocional y querés herramientas para reconectar con tu pareja, estoy aquí para acompañarlos.</p>
         <a 

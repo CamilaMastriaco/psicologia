@@ -47,13 +47,9 @@ description_en: "By Lic. Camila Mastriaco | [Post Date] | Category: How Your Min
         <p class="instagram-inline-cta" data-lang-es="¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a>" data-lang-en="Did you like this note? I frequently post content on psychology and well-being. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>Follow me on Instagram!</a>">¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a></p>
     </div>
     
-    <div class="post-disclaimer">
-<p data-lang-es="<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental." data-lang-en="<strong>Disclaimer:</strong> This article is for informational and psychoeducational purposes only. It is not a substitute for a professional diagnosis or an individual therapeutic process. If you are going through a difficult time or feel you need help, do not hesitate to seek support from a mental health professional.">
-<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental.
-</p>
-</div>
+    {% postDisclaimer %}
 
-<section id="cta-post" class="animate-on-scroll">
+<section id="cta-post" class="no-padding-bottom" class="animate-on-scroll">
         <h2 data-lang-es="¿Querés Dejar de Ver Fantasmas Afuera?" data-lang-en="Want to Stop Seeing Ghosts Outside?">¿Querés Dejar de Ver Fantasmas Afuera?</h2>
         <p data-lang-es="Reconocer nuestras proyecciones es un acto de valentía y un paso fundamental en el camino del autoconocimiento. Si querés aprender a mirar hacia adentro y a construir relaciones más auténticas, la terapia es el espacio ideal para hacerlo." data-lang-en="Recognizing our projections is an act of courage and a fundamental step on the path of self-knowledge. If you want to learn to look inward and build more authentic relationships, therapy is the ideal space to do so.">Reconocer nuestras proyecciones es un acto de valentía y un paso fundamental en el camino del autoconocimiento. Si querés aprender a mirar hacia adentro y a construir relaciones más auténticas, la terapia es el espacio ideal para hacerlo.</p>
         <a 

@@ -42,13 +42,9 @@ description_en: "By Lic. Camila Mastriaco | January 09, 2025 | Category: Creativ
         <p class="instagram-inline-cta" data-lang-es="¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a>" data-lang-en="Did you like this note? I frequently post content on psychology and well-being. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>Follow me on Instagram!</a>">¿Te gustó esta nota? Subo contenido de psicología y bienestar con frecuencia. <a href='https://www.instagram.com/psicologia.con.cami/' target='_blank' rel='noopener noreferrer'>¡Seguime en Instagram!</a></p>
     </div>
     
-    <div class="post-disclaimer">
-<p data-lang-es="<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental." data-lang-en="<strong>Disclaimer:</strong> This article is for informational and psychoeducational purposes only. It is not a substitute for a professional diagnosis or an individual therapeutic process. If you are going through a difficult time or feel you need help, do not hesitate to seek support from a mental health professional.">
-<strong>Nota:</strong> Este artículo tiene fines informativos y psicoeducativos. Su contenido no reemplaza un diagnóstico ni un proceso terapéutico individual. Si estás atravesando un momento difícil o sentís que necesitás ayuda, no dudes en buscar el acompañamiento de un profesional de la salud mental.
-</p>
-</div>
+    {% postDisclaimer %}
 
-<section id="cta-post" class="animate-on-scroll">
+<section id="cta-post" class="no-padding-bottom" class="animate-on-scroll">
         <h2 data-lang-es="¿Te animás a ver el aburrimiento desde otra perspectiva?" data-lang-en="Do you dare to see boredom from another perspective?">¿Te animás a ver el aburrimiento desde otra perspectiva?</h2>
         <p data-lang-es="La próxima vez que te sientas aburrido/a, en lugar de agarrar el celular, probá simplemente no hacer nada. Observá qué pensamientos surgen. Podrías sorprenderte de lo que descubrís." data-lang-en="The next time you feel bored, instead of grabbing your phone, try just doing nothing. Observe what thoughts arise. You might be surprised by what you discover.">La próxima vez que te sientas aburrido/a, en lugar de agarrar el celular, probá simplemente no hacer nada. Observá qué pensamientos surgen. Podrías sorprenderte de lo que descubrís.</p>
         <a 
