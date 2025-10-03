@@ -1,5 +1,6 @@
 ---
 layout: base.njk
+permalink: /blog/index.html
 ---
 
 <main>
@@ -25,8 +26,8 @@ layout: base.njk
                 <div class="swiper blog-carousel">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <a href="/posts/ansiedad/" class="blog-post-card animate-on-scroll">
-                                <div class="post-card-image"><img src="/assets/post-ansiedad.jpg"
+                            <a href="{{ '/posts/ansiedad/' | url }}"  class="blog-post-card animate-on-scroll">
+                                <div class="post-card-image"><img src="{{ '/assets/post-ansiedad.jpg' | url }}"
                                         alt="Imagen de portada sobre la ansiedad y el control"></div>
                                 <div class="post-card-content">
                                     <h2 data-lang-es="Ansiedad: 5 Señales de que te Está Superando"
