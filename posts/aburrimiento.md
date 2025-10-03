@@ -7,7 +7,6 @@ og_image: "https://camilamastriaco.github.io/psicologia/assets/post-aburrimiento
 tags: como-funciona-tu-mente
 ---
 
-
     <img src="/assets/post-aburrimiento.jpg" alt="Persona mirando por la ventana en un día lluvioso, en estado reflexivo" class="post-hero-image">
     
     <h1 data-lang-es="El Aburrimiento No Es Tiempo Perdido, Es Tiempo para Descubrirte" data-lang-en="Boredom Is Not Wasted Time, It's Time to Discover Yourself">El Aburrimiento No Es Tiempo Perdido, Es Tiempo para Descubrirte</h1>
