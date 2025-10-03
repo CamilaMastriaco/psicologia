@@ -130,6 +130,22 @@ document.addEventListener("DOMContentLoaded", function() {
             });
 
             document.documentElement.lang = lang;
+            try {
+                const titleElement = document.querySelector('title');
+                if (titleElement) {
+                    // Construimos la clave en camelCase correctamente
+                    const key = `title${lang.charAt(0).toUpperCase() + lang.slice(1)}`; // Esto crea 'titleEs' o 'titleEn'
+                    const newTitle = titleElement.dataset[key];
+                    
+                    if (newTitle) {
+                        titleElement.textContent = newTitle;
+                    }
+                }
+            } catch (error) {
+                console.error("Error al actualizar el título de la página:", error);
+            }
+            
+            
         }
 
         langOptions.forEach(option => {
