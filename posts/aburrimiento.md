@@ -4,6 +4,7 @@ title: "El Poder Oculto del Aburrimiento: Por Qué es Bueno para tu Cerebro | Bl
 description: "En un mundo que nos exige estar siempre ocupados, el aburrimiento se ve como un enemigo. Descubrí por qué es una herramienta clave para la creatividad y el autoconocimiento."
 permalink: /posts/aburrimiento/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-aburrimiento.jpg"
+tags: como-funciona-tu-mente
 ---
 
 

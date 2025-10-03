@@ -4,6 +4,7 @@ title: "Comunicación Asertiva: 3 Frases para Transformar el Juicio en Empatía 
 description: "Aprendé a usar la comunicación asertiva para validar emociones, fomentar la autonomía y fortalecer tus vínculos. Un acto de responsabilidad afectiva."
 permalink: /posts/asertividad/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-asertividad.jpg"
+tags: relaciones-y-comunicacion
 ---
 
 

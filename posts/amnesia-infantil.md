@@ -4,6 +4,7 @@ title: "Amnesia Infantil: El Misterio de Nuestros Primeros Recuerdos | Blog Cami
 description: "¿Por qué tus primeros recuerdos son de los 3 o 4 años? Descubrí qué es la amnesia infantil y por qué ocurre."
 permalink: /posts/amnesia-infantil/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-amnesia-infantil.jpg"
+tags: como-funciona-tu-mente
 ---
 
 

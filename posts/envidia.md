@@ -4,6 +4,7 @@ title: "La Envidia: Qué Esconde y Cómo Transformarla en Motivación | Blog Cam
 description: "La envidia no es sobre lo que otros tienen, sino sobre lo que crees que te falta. Aprendé a usar esta emoción como una brújula para tu propio crecimiento."
 permalink: /posts/envidia/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-envidia.jpg"
+tags: autoestima-y-confianza
 ---
 
 

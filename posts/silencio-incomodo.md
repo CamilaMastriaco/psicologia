@@ -4,6 +4,7 @@ title: "¿Por Qué el Silencio Nos Incomoda Tanto? | Blog Camila Mastriaco"
 description: "El silencio en una conversación puede activar ansiedad, miedo al juicio e inseguridad. Descubrí por qué ocurre y cómo aprender a tolerarlo para mejorar tus vínculos."
 permalink: /posts/silencio-incomodo/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-silencio-incomodo.jpg"
+tags: relaciones-y-comunicacion
 ---
 
 

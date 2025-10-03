@@ -4,6 +4,7 @@ title: "¿Recordás Algo que Nunca Pasó? El Efecto Mandela | Blog Camila Mastri
 description: "¿El señor Monopoly usa monóculo? ¿Pikachu tiene la punta de la cola negra? Descubrí qué es el Efecto Mandela y por qué nuestra memoria nos engaña."
 permalink: /posts/efecto-mandela/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-efecto-mandela.jpg"
+tags: como-funciona-tu-mente
 ---
 
 

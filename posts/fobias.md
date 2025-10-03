@@ -4,6 +4,7 @@ title: "Fobias: Cuando el Miedo Escapa a Nuestro Control | Blog Camila Mastriaco
 description: "Una fobia es una respuesta irracional y persistente. Descubrí qué son, los tipos más comunes y cómo se pueden tratar."
 permalink: /posts/fobias/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-fobias.jpg"
+tags: ansiedad-y-estres
 ---
 
 

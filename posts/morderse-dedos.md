@@ -4,6 +4,7 @@ title: "Morderse los Dedos: ¿Qué Dice este Hábito sobre tu Ansiedad? | Blog C
 description: "Morderse los dedos es más que un mal hábito. Descubrí por qué lo hacemos, su relación con el estrés y la ansiedad, y cómo podés empezar a detenerlo."
 permalink: /posts/morderse-dedos/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-morderse-dedos.jpg"
+tags: ansiedad-y-estres
 ---
 
 

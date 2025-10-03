@@ -4,6 +4,7 @@ title: "El Efecto Halo: Cómo una Primera Impresión Puede Engañar a tu Cerebro
 description: "Descubrí qué es el Efecto Halo y cómo un solo rasgo de una persona puede distorsionar por completo tu juicio sobre ella. Aprendé a tomar decisiones más objetivas."
 permalink: /posts/efecto-halo/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-efecto-halo.jpg"
+tags: como-funciona-tu-mente
 ---
 
 

@@ -4,6 +4,7 @@ title: "La Percepción del Tiempo: ¿Por Qué un Día Feliz Pasa Volando? | Blog
 description: "El tiempo es relativo, y no solo en la física. Descubrí por qué nuestras emociones y nuestra atención hacen que el tiempo parezca acelerarse o detenerse."
 permalink: /posts/percepcion-tiempo/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-percepcion-tiempo.jpg"
+tags: como-funciona-tu-mente
 ---
 
 

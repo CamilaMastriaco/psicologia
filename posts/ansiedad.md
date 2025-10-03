@@ -4,6 +4,7 @@ title: "5 Señales Clave de que la Ansiedad te Está Superando | Blog Camila Mas
 description: "La ansiedad no es solo nerviosismo. Analizamos las 5 señales sutiles (físicas y mentales) de que el estrés diario te está superando y te damos el primer paso práctico para recuperar el control."
 permalink: /posts/ansiedad/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-ansiedad.jpg"
+tags: ansiedad-y-estres
 ---
 
 

@@ -4,6 +4,7 @@ title: "Menos es Más: Cómo la Paradoja de la Elección Afecta tu Ansiedad | Bl
 description: "¿Tener muchas opciones te paraliza? Descubrí qué es la paradoja de la elección y por qué más alternativas pueden aumentar tu ansiedad en lugar de tu felicidad."
 permalink: /posts/paradoja-eleccion/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-paradoja-eleccion.jpg"
+tags: como-funciona-tu-mente
 ---
 
 

@@ -4,6 +4,7 @@ title: "Efecto de Exposición: Por Qué la Familiaridad Nos Atrae | Blog Camila 
 description: "¿Alguna vez una canción que no te gustaba empezó a gustarte de tanto escucharla? Descubrí el Efecto de la Mera Exposición y cómo tu cerebro prefiere lo conocido."
 permalink: /posts/efecto-exposicion/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-efecto-exposicion.jpg"
+tags: como-funciona-tu-mente
 ---
 
 

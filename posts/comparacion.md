@@ -4,6 +4,7 @@ title: "La Trampa de la Comparación: 3 Claves para la Autoaceptación | Blog Ca
 description: "Aprendé a dejar de compararte con las versiones 'editadas' de otros en redes sociales. Enfocate en tu propio proceso y fortalecé tu autoaceptación."
 permalink: /posts/comparacion/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-comparacion.jpg"
+tags: autoestima-y-confianza
 ---
 
 

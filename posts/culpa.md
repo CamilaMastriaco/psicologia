@@ -4,6 +4,7 @@ title: "La Culpa: Cómo Dejar de Cargar con un Peso que No te Pertenece | Blog C
 description: "La culpa es una emoción poderosa que puede dañar tu autoestima y generar ansiedad. Aprendé a diferenciar la culpa útil de la destructiva y a gestionarla."
 permalink: /posts/culpa/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-culpa.jpg"
+tags: autoestima-y-confianza
 ---
 
 

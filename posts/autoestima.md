@@ -4,6 +4,7 @@ title: "La Autoestima: La Base de Cómo Te Ves y Cómo Te Tratas | Blog Camila M
 description: "La autoestima no es sentirse superior, es construir una base sólida de autoconfianza y respeto. Descubrí qué es y 5 claves prácticas para empezar a fortalecerla hoy"
 permalink: /posts/autoestima/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-autoestima.jpg"
+tags: autoestima-y-confianza
 ---
 
 

@@ -4,6 +4,7 @@ title: "Efecto del Espectador: Por Qué Miramos sin Ayudar | Blog Camila Mastria
 description: "¿Por qué la presencia de otros nos paraliza en una emergencia? Descubrí el Efecto del Espectador y cómo la difusión de responsabilidad nos impide actuar."
 permalink: /posts/efecto-espectador/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-efecto-espectador.jpg"
+tags: como-funciona-tu-mente
 ---
 
 

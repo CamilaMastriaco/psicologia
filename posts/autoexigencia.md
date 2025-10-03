@@ -4,6 +4,7 @@ title: "5 Frases de Autoexigencia que Sabotean tu Bienestar | Blog Camila Mastri
 description: "Descubrí las frases de autoexigencia que se disfrazan de motivación. Aprendé a reconocer el miedo al error y a priorizar el autocuidado y el descanso."
 permalink: /posts/autoexigencia/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-autoexigencia.jpg"
+tags: autoestima-y-confianza
 ---
 
 

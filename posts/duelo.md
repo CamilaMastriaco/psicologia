@@ -4,6 +4,7 @@ title: "El Duelo No Es Olvidar, Es Aprender a Vivir con la Ausencia | Blog Camil
 description: "El duelo es un proceso único y personal. Descubrí las fases del duelo y cómo podés transitarlo de una manera compasiva, aprendiendo a vivir con la ausencia."
 permalink: /posts/duelo/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-duelo.jpg"
+tags: gestion-emocional
 ---
 
 

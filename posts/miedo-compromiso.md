@@ -4,6 +4,7 @@ title: "Miedo al Compromiso: ¿Por Qué Nos Cuesta Tanto Construir a Largo Plazo
 description: "El miedo al compromiso no es falta de amor. Descubrí las causas detrás de este temor, cómo afecta tus relaciones y los pasos que podés dar para superarlo."
 permalink: /posts/miedo-compromiso/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-miedo-compromiso.jpg"
+tags: relaciones-y-comunicacion
 ---
 
 

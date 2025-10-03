@@ -4,6 +4,7 @@ title: "Proyección Psicológica: Cuando Ves en los Demás lo que No Querés Ver
 description: "¿Te molesta mucho un rasgo de alguien más? Podría ser una proyección. Descubrí qué es este mecanismo de defensa y cómo usarlo para tu autoconocimiento."
 permalink: /posts/proyeccion/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-proyeccion.jpg"
+tags: como-funciona-tu-mente
 ---
 
 

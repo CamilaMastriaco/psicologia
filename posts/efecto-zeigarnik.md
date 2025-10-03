@@ -4,6 +4,7 @@ title: "Efecto Zeigarnik: Por Qué Recordás Más lo que No Terminaste | Blog Ca
 description: "¿Te persiguen las tareas incompletas? Descubrí qué es el Efecto Zeigarnik y cómo usarlo a tu favor para vencer la procrastinación y reducir la ansiedad."
 permalink: /posts/efecto-zeigarnik/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-efecto-zeigarnik.jpg"
+tags: como-funciona-tu-mente
 ---
 
 

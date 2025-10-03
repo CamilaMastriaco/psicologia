@@ -4,6 +4,7 @@ title: "Responsabilidad Afectiva: El Arte de Cuidar Nuestros Vínculos | Blog Ca
 description: "Ser responsable afectivamente es ser consciente del impacto de nuestras acciones en los demás. Aprendé qué es y cómo practicarla para construir relaciones más sanas."
 permalink: /posts/responsabilidad-afectiva/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-responsabilidad-afectiva.jpg"
+tags: relaciones-y-comunicacion
 ---
 
 

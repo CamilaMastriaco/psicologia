@@ -4,6 +4,7 @@ title: "Del Crítico Interno a la Confianza: Cómo Sanar las Heridas de la Infan
 description: "Las críticas en la infancia generan autoexigencia y miedo al fracaso en la adultez. Aprendé a sanar esas heridas y a reconstruir la confianza en vos mismo/a."
 permalink: /posts/confianza/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-confianza.jpg"
+tags: autoestima-y-confianza
 ---
 
 

@@ -4,6 +4,7 @@ title: "Mitos Comunes Sobre la Terapia y Cuándo Empezar | Blog Camila Mastriaco
 description: "¿Ir a terapia es de locos? ¿Puedo resolverlo solo/a? Desmentimos los mitos más comunes que te impiden buscar ayuda y te contamos cómo saber si necesitás empezar."
 permalink: /posts/mitos-terapia/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-mitos-terapia.jpg"
+tags: gestion-emocional
 ---
 
 

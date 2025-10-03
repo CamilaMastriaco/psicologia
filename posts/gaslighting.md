@@ -4,6 +4,7 @@ title: "Gaslighting: Cómo Identificar esta Sutil Forma de Manipulación | Blog 
 description: "¿Alguna vez te hicieron dudar de tu propia memoria o cordura? Aprendé a reconocer las señales del gaslighting, una forma de abuso psicológico que mina tu realidad."
 permalink: /posts/gaslighting/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-gaslighting.jpg"
+tags: relaciones-y-comunicacion
 ---
 
 

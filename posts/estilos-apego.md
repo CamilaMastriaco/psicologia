@@ -4,6 +4,7 @@ title: "Estilos de Apego: Cómo tu Infancia Moldea tus Relaciones Adultas | Blog
 description: "Descubrí los estilos de apego (seguro, ansioso, evitativo y desorganizado) y entendé cómo tus primeros vínculos afectan tu forma de amar y relacionarte hoy."
 permalink: /posts/estilos-apego/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-estilos-apego.jpg"
+tags: relaciones-y-comunicacion
 ---
 
 

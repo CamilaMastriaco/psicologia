@@ -4,6 +4,7 @@ title: "Depresión vs. Tristeza: Cómo Diferenciarlas y Cuándo Pedir Ayuda | Bl
 description: "La tristeza es una emoción, la depresión es una enfermedad. Aprendé a reconocer las diferencias clave en duración, intensidad y síntomas para saber cómo actuar."
 permalink: /posts/depresion-tristeza/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-depresion-tristeza.jpg"
+tags: ansiedad-y-estres
 ---
 
 

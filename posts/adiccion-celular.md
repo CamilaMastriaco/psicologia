@@ -4,6 +4,7 @@ title: "Adicción al Celular: ¿Podrías Pasar un Día Desconectado? | Blog Cami
 description: "Revisar el celular al despertar, sentir ansiedad si no lo tenés cerca... Identificá las señales de la adicción al celular y aprendé cómo reducir su impacto en tu vida."
 permalink: /posts/adiccion-celular/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-adiccion-celular.jpg"
+tags: como-funciona-tu-mente
 ---
 
 

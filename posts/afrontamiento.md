@@ -4,6 +4,7 @@ title: "Resiliencia: Cómo Afrontar los Desafíos en Lugar de Evitarlos | Blog C
 description: "Evitar los problemas parece más fácil, pero enfrentarlos es lo que nos permite crecer. Descubrí por qué evitamos y aprendé 4 claves para afrontar las dificultades."
 permalink: /posts/afrontamiento/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-afrontamiento.jpg"
+tags: gestion-emocional
 ---
 
 

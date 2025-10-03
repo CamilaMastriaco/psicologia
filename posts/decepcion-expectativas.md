@@ -4,6 +4,7 @@ title: "La Decepción No Viene de lo que Pasa, Sino de lo que Esperabas | Blog C
 description: "La frustración, la desconexión y los conflictos a menudo nacen de nuestras expectativas. Aprendé a gestionarlas para vivir con más aceptación y menos decepción."
 permalink: /posts/decepcion-expectativas/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-decepcion-expectativas.jpg"
+tags: gestion-emocional
 ---
 
 

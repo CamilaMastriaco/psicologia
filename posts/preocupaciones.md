@@ -4,6 +4,7 @@ title: "El 85% de tus Preocupaciones Nunca Sucederán | Blog Camila Mastriaco"
 description: "La ciencia detrás de la ansiedad: ¿Sabías que la gran mayoría de las cosas que te preocupan no se cumplen? Aprendé a gestionar la rumiación mental."
 permalink: /posts/preocupaciones/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-preocupaciones.jpg"
+tags: ansiedad-y-estres
 ---
 
 

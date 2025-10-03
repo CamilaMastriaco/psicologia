@@ -4,6 +4,7 @@ title: "Desgaste Emocional: Cuando el Amor No Es Suficiente | Blog Camila Mastri
 description: "A veces no es la falta de amor, sino la acumulación de pequeñas tensiones lo que daña una relación. Aprendé a identificar y a combatir el desgaste emocional."
 permalink: /posts/desgaste-emocional/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-desgaste-emocional.jpg"
+tags: relaciones-y-comunicacion
 ---
 
 

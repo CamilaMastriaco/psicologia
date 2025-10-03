@@ -4,6 +4,7 @@ title: "La Paradoja de la Música Triste: ¿Por Qué Nos Hace Sentir Mejor? | Bl
 description: "Descubrí por qué escuchar música triste cuando estamos mal puede ser reconfortante. La ciencia detrás de la liberación de prolactina, la empatía y la catarsis emocional."
 permalink: /posts/musica-triste/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-musica-triste.jpg"
+tags: gestion-emocional
 ---
 
 

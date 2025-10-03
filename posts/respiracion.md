@@ -4,6 +4,7 @@ title: "Técnica de Respiración 4-7-8 para Calmar la Ansiedad | Blog Camila Mas
 description: "Aprendé paso a paso la técnica de respiración 4-7-8, una herramienta simple y poderosa para reducir el estrés, mejorar la concentración y calmar tu mente en minutos."
 permalink: /posts/respiracion/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-respiracion.jpg"
+tags: gestion-emocional
 ---
 
 

@@ -4,6 +4,7 @@ title: "Miedo al Abandono: 5 Señales y 4 Pasos para la Seguridad Emocional | Bl
 description: "Identificá las señales del miedo al abandono en tus relaciones (ansiedad, celos, dependencia) y aprendé 4 pasos clave para desarrollar seguridad emocional."
 permalink: /posts/abandono/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-abandono.jpg"
+tags: relaciones-y-comunicacion
 ---
 
 
