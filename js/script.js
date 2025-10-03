@@ -248,3 +248,85 @@ try {
 } catch (error) {
     console.error("Error al actualizar el año del copyright:", error);
 };
+
+// --- LÓGICA DEL BANNER DE CONSENTIMIENTO DE COOKIES ---
+document.addEventListener('DOMContentLoaded', () => {
+    try {
+        const banner = document.getElementById('cookie-consent-banner');
+        const acceptBtn = document.getElementById('cookie-consent-accept');
+        const rejectBtn = document.getElementById('cookie-consent-reject');
+        
+        // Función para obtener el GA_ID del script original inyectado por el deploy
+        const getGaId = () => {
+            // Buscamos el script original de GA que tu deploy.yml debería haber creado
+            const gaScriptTag = document.querySelector('script[src*="googletagmanager.com/gtag/js?id="]');
+            if (gaScriptTag) {
+                const url = new URL(gaScriptTag.src);
+                return url.searchParams.get('id');
+            }
+            return null;
+        };
+
+        const GA_ID = getGaId();
+
+        // Función para cargar los scripts de Google Analytics
+        const loadGoogleAnalytics = () => {
+            if (!GA_ID) {
+                console.warn("Google Analytics ID no encontrado en el HTML. Asegúrate de que el deploy.yml lo está inyectando.");
+                return;
+            }
+            
+            // Si ya existe una función gtag, significa que ya se cargó. No hacer nada.
+            if (typeof gtag === 'function') return;
+
+            // El script principal ya está en el head (pero bloqueado), solo necesitamos ejecutar la configuración.
+            // O si lo eliminamos, lo creamos dinámicamente.
+            // Para ser seguros, vamos a crearlo dinámicamente como antes.
+            
+            const gascript = document.createElement('script');
+            gascript.async = true;
+            gascript.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+            document.head.appendChild(gascript);
+
+            const gascriptConfig = document.createElement('script');
+            gascriptConfig.innerHTML = `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${GA_ID}');
+            `;
+            document.head.appendChild(gascriptConfig);
+            console.log("Consentimiento otorgado. Google Analytics activado.");
+        };
+
+        // Ocultar el banner y guardar la preferencia
+        const hideBanner = (consentType) => {
+            localStorage.setItem('cookie_consent', consentType);
+            banner.classList.remove('active');
+        };
+
+        // Event Listeners para los botones
+        acceptBtn.addEventListener('click', () => {
+            hideBanner('granted');
+            loadGoogleAnalytics();
+        });
+
+        rejectBtn.addEventListener('click', () => {
+            hideBanner('rejected');
+        });
+
+        // Comprobar el estado del consentimiento al cargar la página
+        const consentStatus = localStorage.getItem('cookie_consent');
+
+        if (consentStatus === 'granted') {
+            loadGoogleAnalytics();
+        } else if (!consentStatus) { // Solo mostrar si no hay una elección previa
+            setTimeout(() => {
+                banner.classList.add('active');
+            }, 1000);
+        }
+
+    } catch (error) {
+        console.error("Error en la lógica del banner de cookies:", error);
+    }
+});
