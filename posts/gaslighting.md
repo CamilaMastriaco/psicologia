@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | [Post Date] | Category: Relationship
 
 
 
-    <img src="/assets/post-gaslighting.jpg" alt="Una persona confundida mientras otra le susurra al oído, representando la manipulación" class="post-hero-image">
+    <img src="{{ '/assets/post-gaslighting.jpg' | url }}" alt="Una persona confundida mientras otra le susurra al oído, representando la manipulación" class="post-hero-image">
     
     <h1 data-lang-es="Gaslighting: Qué es y Cómo Identificar esta Sutil Forma de Manipulación" data-lang-en="Gaslighting: What It Is and How to Identify This Subtle Form of Manipulation">Gaslighting: Qué es y Cómo Identificar esta Sutil Forma de Manipulación</h1>
 <div id="share-buttons-container"></div>

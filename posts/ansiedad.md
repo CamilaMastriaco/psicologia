@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | September 25, 2025 | Category: Anxie
 
 
     
-    <img src="/assets/post-ansiedad.jpg" alt="Imagen de portada sobre la ansiedad y el control" class="post-hero-image">
+    <img src="{{ '/assets/post-ansiedad.jpg' | url }}" alt="Imagen de portada sobre la ansiedad y el control" class="post-hero-image">
     
     <h1 data-lang-es="5 Señales Clave de que la Ansiedad te Está Superando (y Cómo Empezar a Frenarla)" data-lang-en="5 Key Signs That Anxiety is Overwhelming You (and How to Start Stopping It)">5 Señales Clave de que la Ansiedad te Está Superando (y Cómo Empezar a Frenarla)</h1>
 <div id="share-buttons-container"></div>

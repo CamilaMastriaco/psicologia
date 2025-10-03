@@ -16,7 +16,7 @@ description_en: "By Lic. Camila Mastriaco | August 26, 2025 | Category: Self-Est
 
 
     
-    <img src="/assets/post-comparacion.jpg"
+    <img src="{{ '/assets/post-comparacion.jpg' | url }}"
         alt="Imagen de portada sobre comparación social y autoaceptación" class="post-hero-image">
 
     <h1 data-lang-es="La Trampa de la Comparación: 3 Claves para la Autoaceptación en la Era de las Redes Sociales"

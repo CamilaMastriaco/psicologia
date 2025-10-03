@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | December 14, 2024 | Category: Social
 
 
 
-    <img src="/assets/post-efecto-exposicion.jpg" alt="Secuencia de un rostro que pasa de indiferente a sonriente, representando la familiaridad" class="post-hero-image">
+    <img src="{{ '/assets/post-efecto-exposicion.jpg' | url }}" alt="Secuencia de un rostro que pasa de indiferente a sonriente, representando la familiaridad" class="post-hero-image">
     
     <h1 data-lang-es="El Efecto de la Mera Exposición: Por Qué Nos Termina Gustando lo que Vemos a Menudo" data-lang-en="The Mere-Exposure Effect: Why We End Up Liking What We See Often">El Efecto de la Mera Exposición: Por Qué Nos Termina Gustando lo que Vemos a Menudo</h1>
 <div id="share-buttons-container"></div>

@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | February 18, 2025 | Category: Grief"
 
 
 
-    <img src="/assets/post-duelo.jpg" alt="Silueta de una persona mirando un atardecer, simbolizando la pérdida y la esperanza" class="post-hero-image">
+    <img src="{{ '/assets/post-duelo.jpg' | url }}" alt="Silueta de una persona mirando un atardecer, simbolizando la pérdida y la esperanza" class="post-hero-image">
     
     <h1 data-lang-es="El Duelo Se Transforma: No Es Olvidar, Es Aprender a Vivir con la Ausencia" data-lang-en="Grief Transforms: It's Not About Forgetting, It's About Learning to Live with Absence">El Duelo Se Transforma: No Es Olvidar, Es Aprender a Vivir con la Ausencia</h1>
 <div id="share-buttons-container"></div>

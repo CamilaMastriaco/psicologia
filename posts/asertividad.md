@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | September 11, 2025 | Category: Relat
 
 
     
-    <img src="/assets/post-asertividad.jpg" alt="Imagen de portada sobre comunicación asertiva y empatía" class="post-hero-image">
+    <img src="{{ '/assets/post-asertividad.jpg' | url }}" alt="Imagen de portada sobre comunicación asertiva y empatía" class="post-hero-image">
     
     <h1 data-lang-es="Comunicación Asertiva: 3 Frases para Transformar el Juicio en Empatía y Fortalecer tus Vínculos" data-lang-en="Assertive Communication: 3 Phrases to Transform Judgment into Empathy and Strengthen Your Bonds">Comunicación Asertiva: 3 Frases para Transformar el Juicio en Empatía y Fortalecer tus Vínculos</h1>
 <div id="share-buttons-container"></div>

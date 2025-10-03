@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | October 12, 2024 | Category: Anxiety
 
 
 
-    <img src="/assets/post-preocupaciones.jpg" alt="Persona abrumada por sus pensamientos y preocupaciones" class="post-hero-image">
+    <img src="{{ '/assets/post-preocupaciones.jpg' | url }}" alt="Persona abrumada por sus pensamientos y preocupaciones" class="post-hero-image">
     
     <h1 data-lang-es="¿Sabías que el 85% de tus Preocupaciones Nunca Ocurren?" data-lang-en="Did You Know That 85% of Your Worries Never Happen?">¿Sabías que el 85% de tus Preocupaciones Nunca Ocurren?</h1>
 <div id="share-buttons-container"></div>

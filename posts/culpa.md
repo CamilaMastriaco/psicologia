@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | November 23, 2024 | Category: Self-C
 
 
 
-    <img src="/assets/post-culpa.jpg" alt="Persona agobiada por el sentimiento de culpa" class="post-hero-image">
+    <img src="{{ '/assets/post-culpa.jpg' | url }}" alt="Persona agobiada por el sentimiento de culpa" class="post-hero-image">
     
     <h1 data-lang-es="La Culpa: Cómo Gestionar una de las Emociones Más Poderosas" data-lang-en="Guilt: How to Manage One of the Most Powerful Emotions">La Culpa: Cómo Gestionar una de las Emociones Más Poderosas</h1>
 <div id="share-buttons-container"></div>

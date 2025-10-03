@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | January 17, 2025 | Category: Anxiety
 
 
 
-    <img src="/assets/post-morderse-dedos.jpg" alt="Primer plano de una persona mordiéndose los dedos con expresión de ansiedad" class="post-hero-image">
+    <img src="{{ '/assets/post-morderse-dedos.jpg' | url }}" alt="Primer plano de una persona mordiéndose los dedos con expresión de ansiedad" class="post-hero-image">
     
     <h1 data-lang-es="Morderse los Dedos: El Hábito que Esconde Estrés y Ansiedad" data-lang-en="Biting Your Fingers: The Habit That Hides Stress and Anxiety">Morderse los Dedos: El Hábito que Esconde Estrés y Ansiedad</h1>
 <div id="share-buttons-container"></div>

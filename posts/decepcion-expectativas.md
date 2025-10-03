@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | October 03, 2025 | Category: Persona
 
 
 
-    <img src="/assets/post-decepcion-expectativas.jpg" alt="Persona mirando un camino que se bifurca, representando la diferencia entre expectativa y realidad" class="post-hero-image">
+    <img src="{{ '/assets/post-decepcion-expectativas.jpg' | url }}" alt="Persona mirando un camino que se bifurca, representando la diferencia entre expectativa y realidad" class="post-hero-image">
     
     <h1 data-lang-es="La Decepción No Viene de lo que Pasa, Sino de lo que Esperábamos que Pasara" data-lang-en="Disappointment Comes Not From What Happens, But From What We Expected to Happen">La Decepción No Viene de lo que Pasa, Sino de lo que Esperábamos que Pasara</h1>
 <div id="share-buttons-container"></div>

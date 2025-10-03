@@ -1,3 +1,5 @@
+const isProduction = process.env.NODE_ENV === 'production';
+
 module.exports = function(eleventyConfig) {
   
   eleventyConfig.addPassthroughCopy("assets");
@@ -29,6 +31,7 @@ module.exports = function(eleventyConfig) {
   });
 
   return {
+    pathPrefix: isProduction ? "/psicologia/" : "/",
     dir: {
       input: ".",
       includes: "_includes",

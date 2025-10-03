@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | December 26, 2024 | Category: Techno
 
 
 
-    <img src="/assets/post-adiccion-celular.jpg" alt="Persona atrapada o encadenada a su teléfono celular" class="post-hero-image">
+    <img src="{{ '/assets/post-adiccion-celular.jpg' | url }}" alt="Persona atrapada o encadenada a su teléfono celular" class="post-hero-image">
     
     <h1 data-lang-es="Adicción al Celular: Cuando la Tecnología Afecta Nuestro Bienestar" data-lang-en="Phone Addiction: When Technology Affects Our Well-being">Adicción al Celular: Cuando la Tecnología Afecta Nuestro Bienestar</h1>
 <div id="share-buttons-container"></div>

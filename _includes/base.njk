@@ -35,14 +35,14 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="{{ '/css/style.css' | url }}">
 </head>
 
 <body>
     <header>
         <div class="container">
             <a href="/index.html" class="logo">
-                <img src="/favicon.svg" alt="Logo" class="logo-icon">
+                <img src="{{ '/favicon.svg' | url }}" alt="Logo" class="logo-icon">
                 Terapia Con Camila
             </a>
             <nav>
@@ -110,7 +110,7 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="/js/script.js"></script>
+    <script src="{{ '/js/script.js' | url }}"></script>
 
 
 </body>

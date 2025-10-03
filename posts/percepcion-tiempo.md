@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | January 13, 2025 | Category: Cogniti
 
 
 
-    <img src="/assets/post-percepcion-tiempo.jpg" alt="Un reloj derritiéndose, al estilo de Dalí, para representar la subjetividad del tiempo" class="post-hero-image">
+    <img src="{{ '/assets/post-percepcion-tiempo.jpg' | url }}" alt="Un reloj derritiéndose, al estilo de Dalí, para representar la subjetividad del tiempo" class="post-hero-image">
     
     <h1 data-lang-es="¿Por Qué un Día Feliz Pasa Volando, Pero una Espera Parece Eterna?" data-lang-en="Why Does a Happy Day Fly By, But a Wait Seems Eternal?">¿Por Qué un Día Feliz Pasa Volando, Pero una Espera Parece Eterna?</h1>
 <div id="share-buttons-container"></div>

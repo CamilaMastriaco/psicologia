@@ -13,7 +13,7 @@ description_en: "By Lic. Camila Mastriaco | January 09, 2025 | Category: Creativ
 ---
 
 
-    <img src="/assets/post-aburrimiento.jpg" alt="Persona mirando por la ventana en un día lluvioso, en estado reflexivo" class="post-hero-image">
+    <img src="{{ '/assets/post-aburrimiento.jpg' | url }}" alt="Persona mirando por la ventana en un día lluvioso, en estado reflexivo" class="post-hero-image">
     
     <h1 data-lang-es="El Aburrimiento No Es Tiempo Perdido, Es Tiempo para Descubrirte" data-lang-en="Boredom Is Not Wasted Time, It's Time to Discover Yourself">El Aburrimiento No Es Tiempo Perdido, Es Tiempo para Descubrirte</h1>
 <div id="share-buttons-container"></div>

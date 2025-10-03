@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | October 01, 2025 | Category: Mind Cu
 
 
 
-    <img src="/assets/post-efecto-mandela.jpg" alt="Ilustración abstracta de cerebros conectados compartiendo recuerdos erróneos" class="post-hero-image">
+    <img src="{{ '/assets/post-efecto-mandela.jpg' | url }}" alt="Ilustración abstracta de cerebros conectados compartiendo recuerdos erróneos" class="post-hero-image">
     
     <h1 data-lang-es="El Efecto Mandela: ¿Por Qué Recordamos Cosas que Nunca Pasaron?" data-lang-en="The Mandela Effect: Why Do We Remember Things That Never Happened?">El Efecto Mandela: ¿Por Qué Recordamos Cosas que Nunca Pasaron?</h1>
 <div id="share-buttons-container"></div>

@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | October 26, 2024 | Category: Anxiety
 
 
 
-    <img src="/assets/post-paradoja-eleccion.jpg" alt="Persona abrumada frente a múltiples caminos o opciones" class="post-hero-image">
+    <img src="{{ '/assets/post-paradoja-eleccion.jpg' | url }}" alt="Persona abrumada frente a múltiples caminos o opciones" class="post-hero-image">
     
     <h1 data-lang-es="La Paradoja de la Elección: ¿Por Qué Tener Más Opciones Nos Hace Menos Felices?" data-lang-en="The Paradox of Choice: Why Having More Options Makes Us Less Happy">La Paradoja de la Elección: ¿Por Qué Tener Más Opciones Nos Hace Menos Felices?</h1>
 <div id="share-buttons-container"></div>

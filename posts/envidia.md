@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | January 21, 2025 | Category: Self-Es
 
 
 
-    <img src="/assets/post-envidia.jpg" alt="Dos personas, una mirando con envidia a la otra que parece exitosa" class="post-hero-image">
+    <img src="{{ '/assets/post-envidia.jpg' | url }}" alt="Dos personas, una mirando con envidia a la otra que parece exitosa" class="post-hero-image">
     
     <h1 data-lang-es="La Envidia No Es Sobre lo que el Otro Tiene, Sino Sobre lo que Creés que Te Falta" data-lang-en="Envy Is Not About What Others Have, But About What You Think You Lack">La Envidia No Es Sobre lo que el Otro Tiene, Sino Sobre lo que Creés que Te Falta</h1>
 <div id="share-buttons-container"></div>

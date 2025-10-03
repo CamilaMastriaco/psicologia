@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | March 25, 2025 | Category: Relations
 
 
 
-    <img src="/assets/post-abandono.jpg" alt="Imagen de portada sobre miedo al abandono y seguridad emocional" class="post-hero-image">
+    <img src="{{ '/assets/post-abandono.jpg' | url }}" alt="Imagen de portada sobre miedo al abandono y seguridad emocional" class="post-hero-image">
     
     <h1 data-lang-es="Miedo al Abandono: 5 Señales de que te Afecta y 4 Pasos para Desarrollar Seguridad Emocional" data-lang-en="Fear of Abandonment: 5 Signs It Affects You and 4 Steps to Develop Emotional Security">Miedo al Abandono: 5 Señales de que te Afecta y 4 Pasos para Desarrollar Seguridad Emocional</h1>
 <div id="share-buttons-container"></div>

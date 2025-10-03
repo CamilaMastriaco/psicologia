@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | September 29, 2025 | Category: Self-
 
 
     
-    <img src="/assets/post-confianza.jpg" alt="Persona mirando su reflejo con confianza" class="post-hero-image">
+    <img src="{{ '/assets/post-confianza.jpg' | url }}" alt="Persona mirando su reflejo con confianza" class="post-hero-image">
     
     <h1 data-lang-es="Del Crítico Interno a la Confianza: Cómo Sanar las Heridas de la Infancia" data-lang-en="From Inner Critic to Confidence: Healing Childhood Wounds">Del Crítico Interno a la Confianza: Cómo Sanar las Heridas de la Infancia</h1>
 <div id="share-buttons-container"></div>
