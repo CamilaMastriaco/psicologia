@@ -828,8 +828,8 @@ nav a:hover, nav a.active {
 
 @media (max-width: 768px) {
     #hero {
-        padding-top: 80px; 
-        padding-bottom: 100px; 
+        padding-top: 60px; 
+        padding-bottom: 90px; 
     }
     h1 { font-size: 2.5rem; }
     h2 { font-size: 2rem; }
