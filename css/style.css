@@ -1021,3 +1021,41 @@ nav a:hover, nav a.active {
         justify-content: center;
     }
 }
+
+
+.category-header {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: baseline; 
+    margin-bottom: 1rem; 
+    padding-bottom: 0.5rem; 
+    border-bottom: 2px solid var(--secondary-color);
+}
+
+.category-header h3 {
+    margin-bottom: 0; 
+    font-size: 1.8rem;
+}
+
+.view-all-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--primary-color); 
+    font-size: 0.95rem;
+    transition: transform 0.3s ease, color 0.3s ease; 
+    white-space: nowrap; 
+}
+
+.view-all-link:hover {
+    color: #5b21b6;
+    transform: translateX(4px); 
+}
+
+@media (max-width: 768px) {
+    .category-header h3 {
+        font-size: 1.5rem; 
+    }
+    .view-all-link {
+        font-size: 0.9rem;
+    }
+}

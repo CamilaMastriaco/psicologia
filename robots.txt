@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://camilamastriaco.github.io/psicologia/sitemap.xml
