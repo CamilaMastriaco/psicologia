@@ -5,7 +5,13 @@ description: "¿Te molesta mucho un rasgo de alguien más? Podría ser una proye
 permalink: /posts/proyeccion/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-proyeccion.jpg"
 tags: como-funciona-tu-mente
+
+title_es: "Proyección Psicológica: Cuando Ves en los Demás lo que No Querés Ver en Vos"
+title_en: "Psychological Projection: When You See in Others What You Don't Want to See in Yourself"
+description_es: "Por Lic. Camila Mastriaco | 23 de Julio, 2025 | Categoría: Cómo Funciona tu Mente"
+description_en: "By Lic. Camila Mastriaco | [Post Date] | Category: How Your Mind Works"
 ---
+
 
 
 

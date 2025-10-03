@@ -5,7 +5,13 @@ description: "A veces no es la falta de amor, sino la acumulación de pequeñas 
 permalink: /posts/desgaste-emocional/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-desgaste-emocional.jpg"
 tags: relaciones-y-comunicacion
+
+title_es: "Desgaste Emocional: La Muerte Silenciosa de una Relación"
+title_en: "Emotional Burnout: The Silent Death of a Relationship"
+description_es: "Por Lic. Camila Mastriaco | 09 de Noviembre, 2024 | Categoría: Relaciones"
+description_en: "By Lic. Camila Mastriaco | November 09, 2024 | Category: Relationships"
 ---
+
 
 
 

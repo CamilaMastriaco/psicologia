@@ -7,30 +7,37 @@ pagination:
 permalink: "/blog/categoria/{{ tag | slug }}/"
 eleventyComputed:
   title: "{{ tag | getCategoryName('es') }} | Blog Camila Mastriaco"
-  title_en: "{{ tag | getCategoryName('en') }} | Blog Camila Mastriaco"
+  lang_es_title: "{{ tag | getCategoryName('es') }} | Blog Camila Mastriaco"
+  lang_en_title: "{{ tag | getCategoryName('en') }} | Blog Camila Mastriaco"
 ---
-{# --- Cabecera de la página de categoría --- #}
 <main>
     <section id="blog-hero" class="animate-on-scroll section-divider">
         <div class="container">
-            {# El diccionario ya no es necesario aquí, porque lo lee desde _data #}
-            <h1 data-lang-es="Artículos sobre: {{ categoryNames[tag].es or tag }}" data-lang-en="Articles about: {{ categoryNames[tag].en or tag }}">Artículos sobre: {{ categoryNames[tag].es or tag }}</h1>
+            <h1 data-lang-es="Artículos sobre: {{ tag | getCategoryName('es') }}" 
+                data-lang-en="Articles about: {{ tag | getCategoryName('en') }}">
+                Artículos sobre: {{ tag | getCategoryName('es') }}
+            </h1>
         </div>
     </section>
 
-    {# --- Lista de posts de la categoría --- #}
     <section id="blog-list">
         <div class="container">
             <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px;">
             
-            {% for post in collections[tag] | reverse %}
-                <a href="{{ post.url | url }}" class="blog-post-card animate-on-scroll">
+            {% for item in collections[tag] | reverse %}
+                <a href="{{ item.url | url }}" class="blog-post-card animate-on-scroll">
                     <div class="post-card-image">
-                        <img src="{{ post.data.og_image | url }}" alt="Imagen de portada del artículo {{ post.data.title.split('|')[0] }}">
+                        <img src="{{ item.data.og_image | url }}" alt="Imagen de portada del artículo {{ item.data.title_es }}">
                     </div>
                     <div class="post-card-content">
-                        <h2>{{ post.data.title.split('|')[0] }}</h2>
-                        <p>{{ post.data.description }}</p>
+                        <h2 data-lang-es="{{ item.data.title_es }}" 
+                            data-lang-en="{{ item.data.title_en }}">
+                            {{ item.data.title_es }}
+                        </h2>
+                        <p data-lang-es="{{ item.data.description_es }}"
+                           data-lang-en="{{ item.data.description_en }}">
+                           {{ item.data.description_es }}
+                        </p>
                         <span class="read-more-indicator" data-lang-es="Leer más" data-lang-en="Read more">Leer más</span>
                     </div>
                 </a>

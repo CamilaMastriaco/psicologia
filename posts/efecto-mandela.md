@@ -5,7 +5,13 @@ description: "¿El señor Monopoly usa monóculo? ¿Pikachu tiene la punta de la
 permalink: /posts/efecto-mandela/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-efecto-mandela.jpg"
 tags: como-funciona-tu-mente
+
+title_es: "El Efecto Mandela: ¿Por Qué Recordamos Cosas que Nunca Pasaron?"
+title_en: "The Mandela Effect: Why Do We Remember Things That Never Happened?"
+description_es: "Por Lic. Camila Mastriaco | 01 de Octubre, 2025 | Categoría: Curiosidades de la Mente"
+description_en: "By Lic. Camila Mastriaco | October 01, 2025 | Category: Mind Curiosities"
 ---
+
 
 
 

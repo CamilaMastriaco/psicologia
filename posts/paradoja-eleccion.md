@@ -5,7 +5,13 @@ description: "¿Tener muchas opciones te paraliza? Descubrí qué es la paradoja
 permalink: /posts/paradoja-eleccion/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-paradoja-eleccion.jpg"
 tags: como-funciona-tu-mente
+
+title_es: "La Paradoja de la Elección: ¿Por Qué Tener Más Opciones Nos Hace Menos Felices?"
+title_en: "The Paradox of Choice: Why Having More Options Makes Us Less Happy"
+description_es: "Por Lic. Camila Mastriaco | 26 de Octubre, 2024 | Categoría: Ansiedad"
+description_en: "By Lic. Camila Mastriaco | October 26, 2024 | Category: Anxiety"
 ---
+
 
 
 

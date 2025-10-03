@@ -5,7 +5,13 @@ description: "La culpa es una emoción poderosa que puede dañar tu autoestima y
 permalink: /posts/culpa/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-culpa.jpg"
 tags: autoestima-y-confianza
+
+title_es: "La Culpa: Cómo Gestionar una de las Emociones Más Poderosas"
+title_en: "Guilt: How to Manage One of the Most Powerful Emotions"
+description_es: "Por Lic. Camila Mastriaco | 23 de Noviembre, 2024 | Categoría: Autocompasión"
+description_en: "By Lic. Camila Mastriaco | November 23, 2024 | Category: Self-Compassion"
 ---
+
 
 
     <img src="/assets/post-culpa.jpg" alt="Persona agobiada por el sentimiento de culpa" class="post-hero-image">

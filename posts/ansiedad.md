@@ -5,7 +5,13 @@ description: "La ansiedad no es solo nerviosismo. Analizamos las 5 señales suti
 permalink: /posts/ansiedad/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-ansiedad.jpg"
 tags: ansiedad-y-estres
+
+title_es: "5 Señales Clave de que la Ansiedad te Está Superando (y Cómo Empezar a Frenarla)"
+title_en: "5 Key Signs That Anxiety is Overwhelming You (and How to Start Stopping It)"
+description_es: "Por Lic. Camila Mastriaco | 25 de Septiembre, 2025 | Categoría: Ansiedad"
+description_en: "By Lic. Camila Mastriaco | September 25, 2025 | Category: Anxiety"
 ---
+
 
 
     

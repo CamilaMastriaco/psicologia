@@ -5,7 +5,13 @@ description: "Aprendé a usar la comunicación asertiva para validar emociones, 
 permalink: /posts/asertividad/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-asertividad.jpg"
 tags: relaciones-y-comunicacion
+
+title_es: "Comunicación Asertiva: 3 Frases para Transformar el Juicio en Empatía y Fortalecer tus Vínculos"
+title_en: "Assertive Communication: 3 Phrases to Transform Judgment into Empathy and Strengthen Your Bonds"
+description_es: "Por Lic. Camila Mastriaco | 11 de Septiembre, 2025 | Categoría: Relaciones"
+description_en: "By Lic. Camila Mastriaco | September 11, 2025 | Category: Relationships"
 ---
+
 
 
     

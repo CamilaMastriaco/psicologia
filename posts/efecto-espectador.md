@@ -5,7 +5,13 @@ description: "¿Por qué la presencia de otros nos paraliza en una emergencia? D
 permalink: /posts/efecto-espectador/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-efecto-espectador.jpg"
 tags: como-funciona-tu-mente
+
+title_es: "El Efecto del Espectador: ¿Por Qué la Multitud Nos Paraliza?"
+title_en: "The Bystander Effect: Why Does the Crowd Paralyze Us?"
+description_es: "Por Lic. Camila Mastriaco | 07 de Diciembre, 2024 | Categoría: Psicología Social"
+description_en: "By Lic. Camila Mastriaco | December 07, 2024 | Category: Social Psychology"
 ---
+
 
 
 

@@ -5,7 +5,13 @@ description: "¿Alguna vez una canción que no te gustaba empezó a gustarte de 
 permalink: /posts/efecto-exposicion/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-efecto-exposicion.jpg"
 tags: como-funciona-tu-mente
+
+title_es: "El Efecto de la Mera Exposición: Por Qué Nos Termina Gustando lo que Vemos a Menudo"
+title_en: "The Mere-Exposure Effect: Why We End Up Liking What We See Often"
+description_es: "Por Lic. Camila Mastriaco | 14 de Diciembre, 2024 | Categoría: Psicología Social"
+description_en: "By Lic. Camila Mastriaco | December 14, 2024 | Category: Social Psychology"
 ---
+
 
 
     <img src="/assets/post-efecto-exposicion.jpg" alt="Secuencia de un rostro que pasa de indiferente a sonriente, representando la familiaridad" class="post-hero-image">

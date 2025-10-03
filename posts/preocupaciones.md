@@ -5,7 +5,13 @@ description: "La ciencia detrás de la ansiedad: ¿Sabías que la gran mayoría 
 permalink: /posts/preocupaciones/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-preocupaciones.jpg"
 tags: ansiedad-y-estres
+
+title_es: "¿Sabías que el 85% de tus Preocupaciones Nunca Ocurren?"
+title_en: "Did You Know That 85% of Your Worries Never Happen?"
+description_es: "Por Lic. Camila Mastriaco | 12 de Octubre, 2024 | Categoría: Ansiedad"
+description_en: "By Lic. Camila Mastriaco | October 12, 2024 | Category: Anxiety"
 ---
+
 
 
     <img src="/assets/post-preocupaciones.jpg" alt="Persona abrumada por sus pensamientos y preocupaciones" class="post-hero-image">

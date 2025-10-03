@@ -5,7 +5,13 @@ description: "Descubrí los estilos de apego (seguro, ansioso, evitativo y desor
 permalink: /posts/estilos-apego/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-estilos-apego.jpg"
 tags: relaciones-y-comunicacion
+
+title_es: "Estilos de Apego: Cómo tus Vínculos de la Infancia Moldean tus Relaciones Adultas"
+title_en: "Attachment Styles: How Your Childhood Bonds Shape Your Adult Relationships"
+description_es: "Por Lic. Camila Mastriaco | 07 de Febrero, 2025 | Categoría: Relaciones y Comunicación"
+description_en: "By Lic. Camila Mastriaco | [Post Date] | Category: Relationships and Communication"
 ---
+
 
 
     <img src="/assets/post-estilos-apego.jpg" alt="Ilustración de raíces de un árbol que se convierten en ramas, simbolizando el pasado que moldea el presente" class="post-hero-image">

@@ -5,7 +5,13 @@ description: "La tristeza es una emoción, la depresión es una enfermedad. Apre
 permalink: /posts/depresion-tristeza/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-depresion-tristeza.jpg"
 tags: ansiedad-y-estres
+
+title_es: "Depresión vs. Tristeza: No Son lo Mismo y es Clave Saber Por Qué"
+title_en: "Depression vs. Sadness: They Are Not the Same and It's Key to Know Why"
+description_es: "Por Lic. Camila Mastriaco | 04 de Octubre, 2025 | Categoría: Salud Mental"
+description_en: "By Lic. Camila Mastriaco | October 04, 2025 | Category: Mental Health"
 ---
+
 
 
     <img src="/assets/post-depresion-tristeza.jpg" alt="Dos ilustraciones, una representando una nube de lluvia (tristeza) y otra una tormenta eléctrica (depresión)" class="post-hero-image">

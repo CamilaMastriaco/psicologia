@@ -5,7 +5,13 @@ description: "Revisar el celular al despertar, sentir ansiedad si no lo tenés c
 permalink: /posts/adiccion-celular/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-adiccion-celular.jpg"
 tags: como-funciona-tu-mente
+
+title_es: "Adicción al Celular: Cuando la Tecnología Afecta Nuestro Bienestar"
+title_en: "Phone Addiction: When Technology Affects Our Well-being"
+description_es: "Por Lic. Camila Mastriaco | 26 de Diciembre, 2024 | Categoría: Tecnología"
+description_en: "By Lic. Camila Mastriaco | December 26, 2024 | Category: Technology"
 ---
+
 
 
     <img src="/assets/post-adiccion-celular.jpg" alt="Persona atrapada o encadenada a su teléfono celular" class="post-hero-image">

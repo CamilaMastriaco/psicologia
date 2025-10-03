@@ -5,7 +5,13 @@ description: "La envidia no es sobre lo que otros tienen, sino sobre lo que cree
 permalink: /posts/envidia/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-envidia.jpg"
 tags: autoestima-y-confianza
+
+title_es: "La Envidia No Es Sobre lo que el Otro Tiene, Sino Sobre lo que Creés que Te Falta"
+title_en: "Envy Is Not About What Others Have, But About What You Think You Lack"
+description_es: "Por Lic. Camila Mastriaco | 21 de Enero, 2025 | Categoría: Autoestima"
+description_en: "By Lic. Camila Mastriaco | January 21, 2025 | Category: Self-Esteem"
 ---
+
 
 
     <img src="/assets/post-envidia.jpg" alt="Dos personas, una mirando con envidia a la otra que parece exitosa" class="post-hero-image">

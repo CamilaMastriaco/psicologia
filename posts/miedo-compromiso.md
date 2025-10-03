@@ -5,7 +5,13 @@ description: "El miedo al compromiso no es falta de amor. Descubrí las causas d
 permalink: /posts/miedo-compromiso/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-miedo-compromiso.jpg"
 tags: relaciones-y-comunicacion
+
+title_es: "Miedo al Compromiso: ¿Por Qué Algunas Personas Temen a las Relaciones Profundas?"
+title_en: "Fear of Commitment: Why Do Some People Fear Deep Relationships?"
+description_es: "Por Lic. Camila Mastriaco | 28 de Marzo, 2025 | Categoría: Relaciones"
+description_en: "By Lic. Camila Mastriaco | March 28, 2025 | Category: Relationships"
 ---
+
 
 
     <img src="/assets/post-miedo-compromiso.jpg" alt="Persona huyendo de un corazón, simbolizando el miedo al compromiso" class="post-hero-image">

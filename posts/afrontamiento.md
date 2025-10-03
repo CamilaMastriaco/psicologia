@@ -5,7 +5,13 @@ description: "Evitar los problemas parece más fácil, pero enfrentarlos es lo q
 permalink: /posts/afrontamiento/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-afrontamiento.jpg"
 tags: gestion-emocional
+
+title_es: "No Evites el Desafío: El Poder de Afrontar las Situaciones Difíciles"
+title_en: "Don't Avoid the Challenge: The Power of Facing Difficult Situations"
+description_es: "Por Lic. Camila Mastriaco | 02 de Enero, 2025 | Categoría: Resiliencia"
+description_en: "By Lic. Camila Mastriaco | January 02, 2025 | Category: Resilience"
 ---
+
 
 
 

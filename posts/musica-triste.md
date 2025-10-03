@@ -5,7 +5,13 @@ description: "Descubrí por qué escuchar música triste cuando estamos mal pued
 permalink: /posts/musica-triste/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-musica-triste.jpg"
 tags: gestion-emocional
+
+title_es: "La Curiosa Razón por la que la Música Triste Nos Hace Sentir Bien"
+title_en: "The Curious Reason Why Sad Music Makes Us Feel Good"
+description_es: "Por Lic. Camila Mastriaco | 05 de Febrero, 2025 | Categoría: Emociones"
+description_en: "By Lic. Camila Mastriaco | February 05, 2025 | Category: Emotions"
 ---
+
 
 
 

@@ -5,7 +5,13 @@ description: "Ser responsable afectivamente es ser consciente del impacto de nue
 permalink: /posts/responsabilidad-afectiva/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-responsabilidad-afectiva.jpg"
 tags: relaciones-y-comunicacion
+
+title_es: "Responsabilidad Afectiva: Más Allá de Sentir, Se Trata de Cuidar"
+title_en: "Affective Responsibility: Beyond Feeling, It's About Caring"
+description_es: "Por Lic. Camila Mastriaco | 20 de Febrero, 2025 | Categoría: Relaciones"
+description_en: "By Lic. Camila Mastriaco | February 20, 2025 | Category: Relationships"
 ---
+
 
 
     <img src="/assets/post-responsabilidad-afectiva.jpg" alt="Dos personas conversando con empatía y honestidad" class="post-hero-image">

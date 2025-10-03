@@ -5,7 +5,13 @@ description: "Descubrí qué es el Efecto Halo y cómo un solo rasgo de una pers
 permalink: /posts/efecto-halo/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-efecto-halo.jpg"
 tags: como-funciona-tu-mente
+
+title_es: "El Efecto Halo: No Dejes que una Primera Impresión Defina la Historia Completa"
+title_en: "The Halo Effect: Don't Let a First Impression Define the Whole Story"
+description_es: "Por Lic. Camila Mastriaco | 16 de Noviembre, 2024 | Categoría: Psicología Social"
+description_en: "By Lic. Camila Mastriaco | November 16, 2024 | Category: Social Psychology"
 ---
+
 
 
 

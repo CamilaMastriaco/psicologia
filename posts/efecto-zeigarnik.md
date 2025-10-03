@@ -5,7 +5,13 @@ description: "¿Te persiguen las tareas incompletas? Descubrí qué es el Efecto
 permalink: /posts/efecto-zeigarnik/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-efecto-zeigarnik.jpg"
 tags: como-funciona-tu-mente
+
+title_es: "El Efecto Zeigarnik: Por Qué Tu Cerebro Se Obsesiona con las Tareas Incompletas"
+title_en: "The Zeigarnik Effect: Why Your Brain Obsesses Over Unfinished Tasks"
+description_es: "Por Lic. Camila Mastriaco | 02 de Noviembre, 2024 | Categoría: Productividad"
+description_en: "By Lic. Camila Mastriaco | November 02, 2024 | Category: Productivity"
 ---
+
 
 
     <img src="/assets/post-efecto-zeigarnik.jpg" alt="Ilustración de una lista de tareas con una tarea incompleta resaltada" class="post-hero-image">

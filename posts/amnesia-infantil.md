@@ -5,7 +5,13 @@ description: "¿Por qué tus primeros recuerdos son de los 3 o 4 años? Descubr�
 permalink: /posts/amnesia-infantil/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-amnesia-infantil.jpg"
 tags: como-funciona-tu-mente
+
+title_es: "Amnesia Infantil: El Misterio de Nuestros Primeros Recuerdos"
+title_en: "Childhood Amnesia: The Mystery of Our First Memories"
+description_es: "Por Lic. Camila Mastriaco | 30 de Noviembre, 2025 | Categoría: Memoria"
+description_en: "By Lic. Camila Mastriaco | November 30, 2025 | Category: Memory"
 ---
+
 
 
 

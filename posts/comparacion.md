@@ -5,7 +5,13 @@ description: "Aprendé a dejar de compararte con las versiones 'editadas' de otr
 permalink: /posts/comparacion/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-comparacion.jpg"
 tags: autoestima-y-confianza
+
+title_es: "La Trampa de la Comparación: 3 Claves para la Autoaceptación en la Era de las Redes Sociales"
+title_en: "The Comparison Trap: 3 Keys to Self-Acceptance in the Age of Social Media"
+description_es: "Por Lic. Camila Mastriaco | 26 de Agosto, 2025 | Categoría: Autoestima"
+description_en: "By Lic. Camila Mastriaco | August 26, 2025 | Category: Self-Esteem"
 ---
+
 
 
 

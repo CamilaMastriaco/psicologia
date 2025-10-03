@@ -5,7 +5,13 @@ description: "Identificá las señales del miedo al abandono en tus relaciones (
 permalink: /posts/abandono/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-abandono.jpg"
 tags: relaciones-y-comunicacion
+
+title_es: "Miedo al Abandono: 5 Señales de que te Afecta y 4 Pasos para Desarrollar Seguridad Emocional"
+title_en: "Fear of Abandonment: 5 Signs It Affects You and 4 Steps to Develop Emotional Security"
+description_es: "Por Lic. Camila Mastriaco | 25 de Marzo, 2025 | Categoría: Relaciones"
+description_en: "By Lic. Camila Mastriaco | March 25, 2025 | Category: Relationships"
 ---
+
 
 
 

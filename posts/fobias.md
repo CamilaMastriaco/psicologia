@@ -5,7 +5,13 @@ description: "Una fobia es una respuesta irracional y persistente. Descubrí qu�
 permalink: /posts/fobias/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-fobias.jpg"
 tags: ansiedad-y-estres
+
+title_es: "Fobias: Cuando el Miedo Escapa a Nuestro Control"
+title_en: "Phobias: When Fear Escapes Our Control"
+description_es: "Por Lic. Camila Mastriaco | 05 de Marzo, 2025 | Categoría: Ansiedad"
+description_en: "By Lic. Camila Mastriaco | March 05, 2025 | Category: Anxiety"
 ---
+
 
 
 

@@ -5,7 +5,13 @@ description: "En un mundo que nos exige estar siempre ocupados, el aburrimiento 
 permalink: /posts/aburrimiento/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-aburrimiento.jpg"
 tags: como-funciona-tu-mente
+
+title_es: "El Aburrimiento No Es Tiempo Perdido, Es Tiempo para Descubrirte"
+title_en: "Boredom Is Not Wasted Time, It's Time to Discover Yourself"
+description_es: "Por Lic. Camila Mastriaco | 09 de Enero, 2025 | Categoría: Creatividad"
+description_en: "By Lic. Camila Mastriaco | January 09, 2025 | Category: Creativity"
 ---
+
 
     <img src="/assets/post-aburrimiento.jpg" alt="Persona mirando por la ventana en un día lluvioso, en estado reflexivo" class="post-hero-image">
     

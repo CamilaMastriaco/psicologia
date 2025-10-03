@@ -5,7 +5,13 @@ description: "Las críticas en la infancia generan autoexigencia y miedo al frac
 permalink: /posts/confianza/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-confianza.jpg"
 tags: autoestima-y-confianza
+
+title_es: "Del Crítico Interno a la Confianza: Cómo Sanar las Heridas de la Infancia"
+title_en: "From Inner Critic to Confidence: Healing Childhood Wounds"
+description_es: "Por Lic. Camila Mastriaco | 29 de Septiembre, 2025 | Categoría: Autoestima"
+description_en: "By Lic. Camila Mastriaco | September 29, 2025 | Category: Self-Esteem"
 ---
+
 
 
     

@@ -5,7 +5,13 @@ description: "Aprendé paso a paso la técnica de respiración 4-7-8, una herram
 permalink: /posts/respiracion/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-respiracion.jpg"
 tags: gestion-emocional
+
+title_es: "Técnica de Respiración 4-7-8: Un Ancla para Calmar tu Mente"
+title_en: "The 4-7-8 Breathing Technique: An Anchor to Calm Your Mind"
+description_es: "Por Lic. Camila Mastriaco | 19 de Octubre, 2024 | Categoría: Autocuidado"
+description_en: "By Lic. Camila Mastriaco | October 19, 2024 | Category: Self-Care"
 ---
+
 
 
 

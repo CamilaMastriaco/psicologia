@@ -5,7 +5,13 @@ description: "La autoestima no es sentirse superior, es construir una base sóli
 permalink: /posts/autoestima/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-autoestima.jpg"
 tags: autoestima-y-confianza
+
+title_es: "La Autoestima: La Base de Cómo Te Ves, Te Tratas y Te Relacionás"
+title_en: "Self-Esteem: The Foundation of How You See, Treat, and Relate to Yourself"
+description_es: "Por Lic. Camila Mastriaco | 11 de Marzo, 2025 | Categoría: Autoestima"
+description_en: "By Lic. Camila Mastriaco | March 11, 2025 | Category: Self-Esteem"
 ---
+
 
 
     <img src="/assets/post-autoestima.jpg" alt="Persona mirándose en un espejo y viendo un reflejo seguro y feliz" class="post-hero-image">

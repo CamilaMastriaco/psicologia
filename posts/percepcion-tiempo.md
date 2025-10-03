@@ -5,7 +5,13 @@ description: "El tiempo es relativo, y no solo en la física. Descubrí por qué
 permalink: /posts/percepcion-tiempo/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-percepcion-tiempo.jpg"
 tags: como-funciona-tu-mente
+
+title_es: "¿Por Qué un Día Feliz Pasa Volando, Pero una Espera Parece Eterna?"
+title_en: "Why Does a Happy Day Fly By, But a Wait Seems Eternal?"
+description_es: "Por Lic. Camila Mastriaco | 13 de Enero, 2025 | Categoría: Psicología Cognitiva"
+description_en: "By Lic. Camila Mastriaco | January 13, 2025 | Category: Cognitive Psychology"
 ---
+
 
 
     <img src="/assets/post-percepcion-tiempo.jpg" alt="Un reloj derritiéndose, al estilo de Dalí, para representar la subjetividad del tiempo" class="post-hero-image">

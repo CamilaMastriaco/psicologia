@@ -5,7 +5,13 @@ description: "¿Alguna vez te hicieron dudar de tu propia memoria o cordura? Apr
 permalink: /posts/gaslighting/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-gaslighting.jpg"
 tags: relaciones-y-comunicacion
+
+title_es: "Gaslighting: Qué es y Cómo Identificar esta Sutil Forma de Manipulación"
+title_en: "Gaslighting: What It Is and How to Identify This Subtle Form of Manipulation"
+description_es: "Por Lic. Camila Mastriaco | 17 de Junio, 2025 | Categoría: Relaciones y Comunicación"
+description_en: "By Lic. Camila Mastriaco | [Post Date] | Category: Relationships and Communication"
 ---
+
 
 
 

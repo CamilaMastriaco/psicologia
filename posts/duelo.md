@@ -5,7 +5,13 @@ description: "El duelo es un proceso único y personal. Descubrí las fases del 
 permalink: /posts/duelo/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-duelo.jpg"
 tags: gestion-emocional
+
+title_es: "El Duelo Se Transforma: No Es Olvidar, Es Aprender a Vivir con la Ausencia"
+title_en: "Grief Transforms: It's Not About Forgetting, It's About Learning to Live with Absence"
+description_es: "Por Lic. Camila Mastriaco | 18 de Febrero, 2025 | Categoría: Duelo"
+description_en: "By Lic. Camila Mastriaco | February 18, 2025 | Category: Grief"
 ---
+
 
 
     <img src="/assets/post-duelo.jpg" alt="Silueta de una persona mirando un atardecer, simbolizando la pérdida y la esperanza" class="post-hero-image">

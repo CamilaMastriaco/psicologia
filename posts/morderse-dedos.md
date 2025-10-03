@@ -5,7 +5,13 @@ description: "Morderse los dedos es más que un mal hábito. Descubrí por qué 
 permalink: /posts/morderse-dedos/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-morderse-dedos.jpg"
 tags: ansiedad-y-estres
+
+title_es: "Morderse los Dedos: El Hábito que Esconde Estrés y Ansiedad"
+title_en: "Biting Your Fingers: The Habit That Hides Stress and Anxiety"
+description_es: "Por Lic. Camila Mastriaco | 17 de Enero, 2025 | Categoría: Ansiedad"
+description_en: "By Lic. Camila Mastriaco | January 17, 2025 | Category: Anxiety"
 ---
+
 
 
     <img src="/assets/post-morderse-dedos.jpg" alt="Primer plano de una persona mordiéndose los dedos con expresión de ansiedad" class="post-hero-image">

@@ -5,7 +5,13 @@ description: "¿Ir a terapia es de locos? ¿Puedo resolverlo solo/a? Desmentimos
 permalink: /posts/mitos-terapia/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-mitos-terapia.jpg"
 tags: gestion-emocional
+
+title_es: "¿Vas a Terapia o Tenés Miedo de Empezar? Mitos Comunes que Nos Frenan"
+title_en: "Therapy: Are You Going or Are You Afraid to Start? Common Myths That Hold Us Back"
+description_es: "Por Lic. Camila Mastriaco | 30 de Septiembre, 2025 | Categoría: Crecimiento Personal"
+description_en: "By Lic. Camila Mastriaco | September 30, 2025 | Category: Personal Growth"
 ---
+
 
 
 

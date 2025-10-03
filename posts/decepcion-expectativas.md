@@ -5,7 +5,13 @@ description: "La frustración, la desconexión y los conflictos a menudo nacen d
 permalink: /posts/decepcion-expectativas/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-decepcion-expectativas.jpg"
 tags: gestion-emocional
+
+title_es: "La Decepción No Viene de lo que Pasa, Sino de lo que Esperábamos que Pasara"
+title_en: "Disappointment Comes Not From What Happens, But From What We Expected to Happen"
+description_es: "Por Lic. Camila Mastriaco | 03 de Octubre, 2025 | Categoría: Crecimiento Personal"
+description_en: "By Lic. Camila Mastriaco | October 03, 2025 | Category: Personal Growth"
 ---
+
 
 
     <img src="/assets/post-decepcion-expectativas.jpg" alt="Persona mirando un camino que se bifurca, representando la diferencia entre expectativa y realidad" class="post-hero-image">

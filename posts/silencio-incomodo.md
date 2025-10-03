@@ -5,7 +5,13 @@ description: "El silencio en una conversación puede activar ansiedad, miedo al 
 permalink: /posts/silencio-incomodo/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-silencio-incomodo.jpg"
 tags: relaciones-y-comunicacion
+
+title_es: "El Silencio Incómodo: Por Qué Nos Asusta y Cómo Aprender a Abrazarlo"
+title_en: "The Uncomfortable Silence: Why It Scares Us and How to Learn to Embrace It"
+description_es: "Por Lic. Camila Mastriaco | 02 de Octubre, 2025 | Categoría: Relaciones"
+description_en: "By Lic. Camila Mastriaco | October 02, 2025 | Category: Relationships"
 ---
+
 
 
 

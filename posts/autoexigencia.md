@@ -5,7 +5,13 @@ description: "Descubrí las frases de autoexigencia que se disfrazan de motivaci
 permalink: /posts/autoexigencia/index.html
 og_image: "https://camilamastriaco.github.io/psicologia/assets/post-autoexigencia.jpg"
 tags: autoestima-y-confianza
+
+title_es: "El Disfraz de la Motivación: 5 Frases de Autoexigencia que Sabotean tu Bienestar"
+title_en: "The Disguise of Motivation: 5 Self-Demand Phrases That Sabotage Your Well-being"
+description_es: "Por Lic. Camila Mastriaco | 11 de Julio, 2025 | Categoría: Autocuidado"
+description_en: "By Lic. Camila Mastriaco | July 11, 2025 | Category: Self-Care"
 ---
+
 
 
     
