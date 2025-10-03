@@ -827,6 +827,10 @@ nav a:hover, nav a.active {
 
 
 @media (max-width: 768px) {
+    #hero {
+        padding-top: 80px; 
+        padding-bottom: 100px; 
+    }
     h1 { font-size: 2.5rem; }
     h2 { font-size: 2rem; }
     section { padding: 60px 0; }
@@ -900,13 +904,12 @@ nav a:hover, nav a.active {
     }
 }
 
-/* --- ESTILOS PARA EL BANNER DE COOKIES PROFESIONAL --- */
 .cookie-banner {
     position: fixed;
     bottom: 20px;
     left: 20px;
     right: 20px;
-    max-width: 960px; /* Coincide con el .container para alineación */
+    max-width: 960px;
     margin: 0 auto;
     background-color: var(--card-bg);
     border-radius: 12px;
@@ -948,7 +951,7 @@ nav a:hover, nav a.active {
 .cookie-banner__actions {
     display: flex;
     gap: 10px;
-    flex-shrink: 0; /* Evita que los botones se achiquen */
+    flex-shrink: 0; 
 }
 
 .cookie-banner__button {
@@ -981,7 +984,6 @@ nav a:hover, nav a.active {
     border-color: #9ca3af;
 }
 
-/* --- Media Query para pantallas pequeñas --- */
 @media (max-width: 768px) {
     .cookie-banner {
         left: 10px;

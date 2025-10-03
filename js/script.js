@@ -1,17 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-    // --- LÓGICA MEJORADA PARA EL ENLACE ACTIVO DEL MENÚ ---
     try {
         const currentUrl = window.location.href;
         const navLinks = document.querySelectorAll('nav a');
 
-        // Primero, quitar la clase 'active' de todos los enlaces
         navLinks.forEach(link => link.classList.remove('active'));
 
-        // Encontrar el enlace que mejor coincida con la URL actual
         let bestMatch = null;
         navLinks.forEach(link => {
-            // link.href devuelve la URL completa y resuelta por el navegador
             if (currentUrl.startsWith(link.href)) {
                 if (!bestMatch || link.href.length > bestMatch.href.length) {
                     bestMatch = link;
@@ -19,12 +15,9 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
 
-        // Si encontramos una coincidencia, le añadimos la clase 'active'
         if (bestMatch) {
             bestMatch.classList.add('active');
         } else {
-            // Si no hay coincidencia directa (ej. en una página de post),
-            // marcamos "Blog" como activo si la URL contiene "/posts/".
             if (currentUrl.includes('/posts/')) {
                 navLinks.forEach(link => {
                     if (link.getAttribute('href').includes('blog')) {
@@ -37,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("Error al resaltar el enlace activo:", error);
     }
 
-    // --- ANIMACIONES DE SCROLL ---
     try {
         const observerCallback = (entries, observer) => {
             entries.forEach(entry => {
@@ -54,7 +46,6 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("Error en las animaciones de scroll:", error);
     }
 
-    // --- CARRUSEL DE TESTIMONIOS ---
     try {
         const testimonialsCarousel = document.querySelector('#testimonios-carousel');
         if (testimonialsCarousel) {
@@ -77,7 +68,6 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("Error al inicializar carrusel de testimonios:", error);
     }
 
-    // --- CARRUSELES DEL BLOG ---
     try {
         const blogCarousels = document.querySelectorAll('.blog-carousel');
         if (blogCarousels.length > 0) {
@@ -101,7 +91,6 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("Error al inicializar carruseles del blog:", error);
     }
 
-    // --- INTERRUPTOR DE IDIOMA ---
     try {
         const langOptions = document.querySelectorAll('.lang-option');
         const translatableElements = document.querySelectorAll('[data-lang-es]');
@@ -133,8 +122,7 @@ document.addEventListener("DOMContentLoaded", function() {
             try {
                 const titleElement = document.querySelector('title');
                 if (titleElement) {
-                    // Construimos la clave en camelCase correctamente
-                    const key = `title${lang.charAt(0).toUpperCase() + lang.slice(1)}`; // Esto crea 'titleEs' o 'titleEn'
+                    const key = `title${lang.charAt(0).toUpperCase() + lang.slice(1)}`;
                     const newTitle = titleElement.dataset[key];
                     
                     if (newTitle) {
@@ -161,7 +149,6 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("Error en el interruptor de idioma:", error);
     }
 
-    // --- TRACKING DE GOOGLE ANALYTICS 4 ---
     try {
         document.querySelectorAll('.social-icons a').forEach(link => {
             link.addEventListener('click', function() {
@@ -188,7 +175,6 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error("Error al configurar el tracking de GA4:", error);
     }
 
-    // --- BOTONES PARA COMPARTIR EN REDES SOCIALES (PARA PÁGINAS DE POSTS) ---
     try {
         const shareContainer = document.getElementById('share-buttons-container');
 
@@ -249,16 +235,13 @@ try {
     console.error("Error al actualizar el año del copyright:", error);
 };
 
-// --- LÓGICA DEL BANNER DE CONSENTIMIENTO DE COOKIES ---
 document.addEventListener('DOMContentLoaded', () => {
     try {
         const banner = document.getElementById('cookie-consent-banner');
         const acceptBtn = document.getElementById('cookie-consent-accept');
         const rejectBtn = document.getElementById('cookie-consent-reject');
         
-        // Función para obtener el GA_ID del script original inyectado por el deploy
         const getGaId = () => {
-            // Buscamos el script original de GA que tu deploy.yml debería haber creado
             const gaScriptTag = document.querySelector('script[src*="googletagmanager.com/gtag/js?id="]');
             if (gaScriptTag) {
                 const url = new URL(gaScriptTag.src);
@@ -269,19 +252,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const GA_ID = getGaId();
 
-        // Función para cargar los scripts de Google Analytics
         const loadGoogleAnalytics = () => {
             if (!GA_ID) {
                 console.warn("Google Analytics ID no encontrado en el HTML. Asegúrate de que el deploy.yml lo está inyectando.");
                 return;
             }
             
-            // Si ya existe una función gtag, significa que ya se cargó. No hacer nada.
             if (typeof gtag === 'function') return;
 
-            // El script principal ya está en el head (pero bloqueado), solo necesitamos ejecutar la configuración.
-            // O si lo eliminamos, lo creamos dinámicamente.
-            // Para ser seguros, vamos a crearlo dinámicamente como antes.
             
             const gascript = document.createElement('script');
             gascript.async = true;
@@ -299,13 +277,11 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log("Consentimiento otorgado. Google Analytics activado.");
         };
 
-        // Ocultar el banner y guardar la preferencia
         const hideBanner = (consentType) => {
             localStorage.setItem('cookie_consent', consentType);
             banner.classList.remove('active');
         };
 
-        // Event Listeners para los botones
         acceptBtn.addEventListener('click', () => {
             hideBanner('granted');
             loadGoogleAnalytics();
@@ -315,12 +291,11 @@ document.addEventListener('DOMContentLoaded', () => {
             hideBanner('rejected');
         });
 
-        // Comprobar el estado del consentimiento al cargar la página
         const consentStatus = localStorage.getItem('cookie_consent');
 
         if (consentStatus === 'granted') {
             loadGoogleAnalytics();
-        } else if (!consentStatus) { // Solo mostrar si no hay una elección previa
+        } else if (!consentStatus) { 
             setTimeout(() => {
                 banner.classList.add('active');
             }, 1000);
