@@ -10775,15 +10775,16 @@ nav a:hover {
 .category-header {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
     margin-bottom: 1rem;
     padding-bottom: .5rem;
     border-bottom: 2px solid var(--secondary-color)
 }
-
 .category-header h3 {
+    text-align: left; 
     margin-bottom: 0;
     font-size: 1.8rem
+
 }
 
 .view-all-link {
