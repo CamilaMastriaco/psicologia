@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | March 05, 2025 | Category: Anxiety"
 
 
 
-    <img src="{{ '/assets/post-fobias.jpg' | url }}" alt="Representación visual del miedo intenso" class="post-hero-image">
+    {% image "assets/post-fobias.jpg", "Representación visual del miedo intenso", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="Fobias: Cuando el Miedo Escapa a Nuestro Control" data-lang-en="Phobias: When Fear Escapes Our Control">Fobias: Cuando el Miedo Escapa a Nuestro Control</h1>
 <div id="share-buttons-container"></div>

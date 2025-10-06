@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | December 07, 2024 | Category: Social
 
 
 
-    <img src="{{ '/assets/post-efecto-espectador.jpg' | url }}" alt="Multitud de personas observando una situación sin intervenir" class="post-hero-image">
+    {% image "assets/post-efecto-espectador.jpg", "Multitud de personas observando una situación sin intervenir", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="El Efecto del Espectador: ¿Por Qué la Multitud Nos Paraliza?" data-lang-en="The Bystander Effect: Why Does the Crowd Paralyze Us?">El Efecto del Espectador: ¿Por Qué la Multitud Nos Paraliza?</h1>
 <div id="share-buttons-container"></div>

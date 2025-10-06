@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | October 19, 2024 | Category: Self-Ca
 
 
 
-    <img src="{{ '/assets/post-respiracion.jpg' | url }}" alt="Persona meditando en un entorno natural y tranquilo" class="post-hero-image">
+    {% image "assets/post-respiracion.jpg", "Persona meditando en un entorno natural y tranquilo", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="Técnica de Respiración 4-7-8: Un Ancla para Calmar tu Mente" data-lang-en="The 4-7-8 Breathing Technique: An Anchor to Calm Your Mind">Técnica de Respiración 4-7-8: Un Ancla para Calmar tu Mente</h1>
 <div id="share-buttons-container"></div>

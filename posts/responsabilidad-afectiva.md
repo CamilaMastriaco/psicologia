@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | February 20, 2025 | Category: Relati
 
 
 
-    <img src="{{ '/assets/post-responsabilidad-afectiva.jpg' | url }}" alt="Dos personas conversando con empatía y honestidad" class="post-hero-image">
+    {% image "assets/post-responsabilidad-afectiva.jpg", "Dos personas conversando con empatía y honestidad", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="Responsabilidad Afectiva: Más Allá de Sentir, Se Trata de Cuidar" data-lang-en="Affective Responsibility: Beyond Feeling, It's About Caring">Responsabilidad Afectiva: Más Allá de Sentir, Se Trata de Cuidar</h1>
 <div id="share-buttons-container"></div>

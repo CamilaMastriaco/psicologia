@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | October 02, 2025 | Category: Relatio
 
 
 
-    <img src="{{ '/assets/post-silencio-incomodo.jpg' | url }}" alt="Dos personas sentadas en silencio, una de ellas con expresión de incomodidad" class="post-hero-image">
+    {% image "assets/post-silencio-incomodo.jpg", "Dos personas sentadas en silencio, una de ellas con expresión de incomodidad", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="El Silencio Incómodo: Por Qué Nos Asusta y Cómo Aprender a Abrazarlo" data-lang-en="The Uncomfortable Silence: Why It Scares Us and How to Learn to Embrace It">El Silencio Incómodo: Por Qué Nos Asusta y Cómo Aprender a Abrazarlo</h1>
 <div id="share-buttons-container"></div>

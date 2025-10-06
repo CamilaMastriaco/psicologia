@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | November 02, 2024 | Category: Produc
 
 
 
-    <img src="{{ '/assets/post-efecto-zeigarnik.jpg' | url }}" alt="Ilustración de una lista de tareas con una tarea incompleta resaltada" class="post-hero-image">
+    {% image "assets/post-efecto-zeigarnik.jpg", "Ilustración de una lista de tareas con una tarea incompleta resaltada", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="El Efecto Zeigarnik: Por Qué Tu Cerebro Se Obsesiona con las Tareas Incompletas" data-lang-en="The Zeigarnik Effect: Why Your Brain Obsesses Over Unfinished Tasks">El Efecto Zeigarnik: Por Qué Tu Cerebro Se Obsesiona con las Tareas Incompletas</h1>
 <div id="share-buttons-container"></div>

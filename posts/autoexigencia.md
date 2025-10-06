@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | July 11, 2025 | Category: Self-Care"
 
 
     
-    <img src="{{ '/assets/post-autoexigencia.jpg' | url }}" alt="Imagen de portada sobre autoexigencia y autocuidado" class="post-hero-image">
+    {% image "assets/post-autoexigencia.jpg", "Imagen de portada sobre autoexigencia y autocuidado", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="El Disfraz de la Motivación: 5 Frases de Autoexigencia que Sabotean tu Bienestar" data-lang-en="The Disguise of Motivation: 5 Self-Demand Phrases That Sabotage Your Well-being">El Disfraz de la Motivación: 5 Frases de Autoexigencia que Sabotean tu Bienestar</h1>
 <div id="share-buttons-container"></div>

@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | February 05, 2025 | Category: Emotio
 
 
 
-    <img src="{{ '/assets/post-musica-triste.jpg' | url }}" alt="Persona escuchando música con auriculares, con una expresión melancólica pero serena" class="post-hero-image">
+    {% image "assets/post-musica-triste.jpg", "Persona escuchando música con auriculares, con una expresión melancólica pero serena", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="La Curiosa Razón por la que la Música Triste Nos Hace Sentir Bien" data-lang-en="The Curious Reason Why Sad Music Makes Us Feel Good">La Curiosa Razón por la que la Música Triste Nos Hace Sentir Bien</h1>
 <div id="share-buttons-container"></div>

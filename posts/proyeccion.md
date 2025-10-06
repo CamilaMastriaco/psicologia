@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | [Post Date] | Category: How Your Min
 
 
 
-    <img src="{{ '/assets/post-proyeccion.jpg' | url }}" alt="Una persona proyectando una luz con adjetivos negativos sobre otra, sin darse cuenta que la luz sale de sí misma" class="post-hero-image">
+    {% image "assets/post-proyeccion.jpg", "Una persona proyectando una luz con adjetivos negativos sobre otra, sin darse cuenta que la luz sale de sí misma", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="Proyección Psicológica: Cuando Ves en los Demás lo que No Querés Ver en Vos" data-lang-en="Psychological Projection: When You See in Others What You Don't Want to See in Yourself">Proyección Psicológica: Cuando Ves en los Demás lo que No Querés Ver en Vos</h1>
 <div id="share-buttons-container"></div>

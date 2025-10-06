@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | November 16, 2024 | Category: Social
 
 
 
-    <img src="{{ '/assets/post-efecto-halo.jpg' | url }}" alt="Máscaras de teatro que representan cómo un rasgo oculta a los otros" class="post-hero-image">
+    {% image "assets/post-efecto-halo.jpg", "Máscaras de teatro que representan cómo un rasgo oculta a los otros", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="El Efecto Halo: No Dejes que una Primera Impresión Defina la Historia Completa" data-lang-en="The Halo Effect: Don't Let a First Impression Define the Whole Story">El Efecto Halo: No Dejes que una Primera Impresión Defina la Historia Completa</h1>
 <div id="share-buttons-container"></div>

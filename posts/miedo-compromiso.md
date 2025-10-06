@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | March 28, 2025 | Category: Relations
 
 
 
-    <img src="{{ '/assets/post-miedo-compromiso.jpg' | url }}" alt="Persona huyendo de un corazón, simbolizando el miedo al compromiso" class="post-hero-image">
+    {% image "assets/post-miedo-compromiso.jpg", "Persona huyendo de un corazón, simbolizando el miedo al compromiso", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="Miedo al Compromiso: ¿Por Qué Algunas Personas Temen a las Relaciones Profundas?" data-lang-en="Fear of Commitment: Why Do Some People Fear Deep Relationships?">Miedo al Compromiso: ¿Por Qué Algunas Personas Temen a las Relaciones Profundas?</h1>
 <div id="share-buttons-container"></div>

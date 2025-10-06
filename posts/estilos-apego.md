@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | [Post Date] | Category: Relationship
 
 
 
-    <img src="{{ '/assets/post-estilos-apego.jpg' | url }}" alt="Ilustración de raíces de un árbol que se convierten en ramas, simbolizando el pasado que moldea el presente" class="post-hero-image">
+    {% image "assets/post-estilos-apego.jpg", "Ilustración de raíces de un árbol que se convierten en ramas, simbolizando el pasado que moldea el presente", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="Estilos de Apego: Cómo tus Vínculos de la Infancia Moldean tus Relaciones Adultas" data-lang-en="Attachment Styles: How Your Childhood Bonds Shape Your Adult Relationships">Estilos de Apego: Cómo tus Vínculos de la Infancia Moldean tus Relaciones Adultas</h1>
 <div id="share-buttons-container"></div>

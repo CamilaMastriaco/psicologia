@@ -18,6 +18,7 @@
   "homepage": "https://github.com/CamilaMastriaco/psicologia#readme",
   "description": "",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4"
   }
 }

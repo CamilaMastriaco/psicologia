@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | November 09, 2024 | Category: Relati
 
 
 
-    <img src="{{ '/assets/post-desgaste-emocional.jpg' | url }}" alt="Ilustración de una pareja sentada de espaldas, mostrando distancia emocional" class="post-hero-image">
+    {% image "assets/post-desgaste-emocional.jpg", "Ilustración de una pareja sentada de espaldas, mostrando distancia emocional", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="Desgaste Emocional: La Muerte Silenciosa de una Relación" data-lang-en="Emotional Burnout: The Silent Death of a Relationship">Desgaste Emocional: La Muerte Silenciosa de una Relación</h1>
 <div id="share-buttons-container"></div>

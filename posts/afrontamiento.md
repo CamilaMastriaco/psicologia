@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | January 02, 2025 | Category: Resilie
 
 
 
-    <img src="{{ '/assets/post-afrontamiento.jpg' | url }}" alt="Persona escalando una montaña, simbolizando el afrontamiento de desafíos" class="post-hero-image">
+    {% image "assets/post-afrontamiento.jpg", "Persona escalando una montaña, simbolizando el afrontamiento de desafíos", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="No Evites el Desafío: El Poder de Afrontar las Situaciones Difíciles" data-lang-en="Don't Avoid the Challenge: The Power of Facing Difficult Situations">No Evites el Desafío: El Poder de Afrontar las Situaciones Difíciles</h1>
 <div id="share-buttons-container"></div>

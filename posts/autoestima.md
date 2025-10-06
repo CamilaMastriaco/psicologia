@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | March 11, 2025 | Category: Self-Este
 
 
 
-    <img src="{{ '/assets/post-autoestima.jpg' | url }}" alt="Persona mirándose en un espejo y viendo un reflejo seguro y feliz" class="post-hero-image">
+    {% image "assets/post-autoestima.jpg", "Persona mirándose en un espejo y viendo un reflejo seguro y feliz", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="La Autoestima: La Base de Cómo Te Ves, Te Tratas y Te Relacionás" data-lang-en="Self-Esteem: The Foundation of How You See, Treat, and Relate to Yourself">La Autoestima: La Base de Cómo Te Ves, Te Tratas y Te Relacionás</h1>
 <div id="share-buttons-container"></div>

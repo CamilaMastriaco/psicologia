@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | September 30, 2025 | Category: Perso
 
 
 
-    <img src="{{ '/assets/post-mitos-terapia.jpg' | url }}" alt="Persona sentada en un diván hablando con una terapeuta en un ambiente cálido" class="post-hero-image">
+    {% image "assets/post-mitos-terapia.jpg", "Persona sentada en un diván hablando con una terapeuta en un ambiente cálido", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="¿Vas a Terapia o Tenés Miedo de Empezar? Mitos Comunes que Nos Frenan" data-lang-en="Therapy: Are You Going or Are You Afraid to Start? Common Myths That Hold Us Back">¿Vas a Terapia o Tenés Miedo de Empezar? Mitos Comunes que Nos Frenan</h1>
 <div id="share-buttons-container"></div>

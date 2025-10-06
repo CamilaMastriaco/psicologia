@@ -15,7 +15,7 @@ description_en: "By Lic. Camila Mastriaco | November 30, 2025 | Category: Memory
 
 
 
-    <img src="{{ '/assets/post-amnesia-infantil.jpg' | url }}" alt="Fotografías antiguas de la infancia" class="post-hero-image">
+    {% image "assets/post-amnesia-infantil.jpg", "Fotografías antiguas de la infancia", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="Amnesia Infantil: El Misterio de Nuestros Primeros Recuerdos" data-lang-en="Childhood Amnesia: The Mystery of Our First Memories">Amnesia Infantil: El Misterio de Nuestros Primeros Recuerdos</h1>
 <div id="share-buttons-container"></div>

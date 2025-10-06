@@ -34,8 +34,7 @@ eleventyComputed:
             {% for item in collections[tag] | reverse %}
                 <a href="{{ item.url | url }}" class="blog-post-card animate-on-scroll">
                     <div class="post-card-image">
-                        <img src="{{ item.data.og_image | url }}" alt="Imagen de portada del artículo {{ item.data.title_es }}">
-                    </div>
+                        {% image item.data.og_image, "Imagen de portada del artículo " + item.data.title_es, "", "(min-width: 960px) 300px, (min-width: 640px) 45vw, 90vw" %}                           </div>
                     <div class="post-card-content">
                         <h2 data-lang-es="{{ item.data.title_es }}" 
                             data-lang-en="{{ item.data.title_en }}">

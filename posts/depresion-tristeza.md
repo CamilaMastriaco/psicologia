@@ -14,7 +14,7 @@ description_en: "By Lic. Camila Mastriaco | October 04, 2025 | Category: Mental 
 
 
 
-    <img src="{{ '/assets/post-depresion-tristeza.jpg' | url }}" alt="Dos ilustraciones, una representando una nube de lluvia (tristeza) y otra una tormenta eléctrica (depresión)" class="post-hero-image">
+    {% image "assets/post-depresion-tristeza.jpg", "Dos ilustraciones, una representando una nube de lluvia (tristeza) y otra una tormenta eléctrica (depresión)", "post-hero-image", "(min-width: 768px) 750px, 100vw" %}
     
     <h1 data-lang-es="Depresión vs. Tristeza: No Son lo Mismo y es Clave Saber Por Qué" data-lang-en="Depression vs. Sadness: They Are Not the Same and It's Key to Know Why">Depresión vs. Tristeza: No Son lo Mismo y es Clave Saber Por Qué</h1>
 <div id="share-buttons-container"></div>
