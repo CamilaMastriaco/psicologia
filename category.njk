@@ -29,7 +29,7 @@ eleventyComputed:
 
     <section id="blog-list" class="no-padding-bottom">
         <div class="container">
-            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px;">
+            <div class="category-grid">
             
             {% for item in collections[tag] | reverse %}
                 <a href="{{ item.url | url }}" class="blog-post-card animate-on-scroll">
