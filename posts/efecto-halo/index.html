@@ -24,7 +24,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/psicologia/css/style.css">
-
 </head>
 
 <body>
@@ -172,6 +171,51 @@
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const contactForm = document.getElementById('contactForm');
+            const formStatus = document.getElementById('form-status');
+            
+            // REEMPLAZA ESTA URL CON LA URL DE DESPLIEGUE DE TU GOOGLE APPS SCRIPT
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbx4wv4O_5H-NCdQMnw16UsP8n_PSys9WmxYIjoF8uHLlfhhCg_TErdP4slZ2QRUxyJ9/exec'; 
+
+            if (contactForm) {
+                contactForm.addEventListener('submit', function(e) {
+                    e.preventDefault(); 
+                
+                    const submitButton = contactForm.querySelector('button[type="submit"]');
+                    submitButton.disabled = true;
+                    submitButton.textContent = 'Enviando...';
+                    formStatus.className = 'form-status';
+                    formStatus.textContent = '';
+
+                    fetch(scriptURL, { method: 'POST', body: new FormData(contactForm) })
+                        .then(response => {
+                            if (response.ok) {
+                                formStatus.textContent = '¡Gracias por tu consulta! Te contactaremos pronto.';
+                                formStatus.className = 'form-status success';
+                                contactForm.reset(); 
+                            } else {
+                                throw new Error('Error de red o servidor.');
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error!', error.message);
+                            formStatus.textContent = 'Hubo un error al enviar el mensaje. Por favor, intenta de nuevo.';
+                            formStatus.className = 'form-status error';
+                        })
+                        .finally(() => {
+                            submitButton.disabled = false;
+                            // Usamos el idioma guardado para restaurar el texto del botón
+                            const currentLang = document.documentElement.lang || 'es';
+                            const buttonTextEs = 'Enviar Consulta';
+                            const buttonTextEn = 'Send Inquiry';
+                            submitButton.textContent = currentLang === 'en' ? buttonTextEn : buttonTextEs;
+                        });
+                });
+            }
+        });
+    </script>
     <script src="/psicologia/js/main.js" defer></script>
 
 
