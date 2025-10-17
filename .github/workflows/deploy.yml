@@ -1,26 +1,27 @@
-name: Build and Deploy to GitHub Pages
+name: Build and Deploy Eleventy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main 
+    branches: ["main"]
+  workflow_dispatch:
 
 permissions:
-  contents: write  
+  contents: read  
+  pages: write    
+  id-token: write 
 
 jobs:
-  build-and-deploy:
-    environment: "Google Analytics" 
+  build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
+          cache: 'npm'
 
       - name: Install dependencies
         run: npm install
@@ -34,8 +35,21 @@ jobs:
         run: |
           find ./_site -type f -name "*.html" -exec sed -i "s|__GA_ID__|${{ secrets.GA_ID }}|g" {} +
         
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site
+          path: './_site'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
